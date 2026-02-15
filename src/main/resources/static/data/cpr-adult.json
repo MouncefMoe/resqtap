@@ -1,0 +1,41 @@
+{
+  "title": "Adult CPR (Ages 18+)",
+  "steps": [
+    {
+      "description": "Check for responsiveness by tapping and shouting. If unresponsive, call emergency services (911).",
+      "image": "images/cpr/adult/check-life.jpg"
+    },
+    {
+      "description": "Check the pulse by placing two fingers on the carotid artery (neck).",
+      "image": "images/cpr/adult/cheking-adult.jpg.webp"
+    },
+    {
+      "description": "Lay the person flat on their back on a firm surface and begin chest compressions.",
+      "image": "images/cpr/adult/cpr-position.jpg.webp"
+    },
+    {
+      "description": "Position your hands: place one hand on top of the other and press hard and fast in the center of the chest.",
+      "image": "images/cpr/adult/hand-position.jpg"
+    },
+    {
+      "description": "Give 30 compressions at a depth of about 2 inches (5 cm), allowing full chest recoil between compressions.",
+      "image": "images/cpr/adult/cpr-position.jpg.webp"
+    },
+    {
+      "description": "Open the airway using the head-tilt, chin-lift technique.",
+      "image": "images/cpr/adult/rescue_breathing_a.jpg"
+    },
+    {
+      "description": "Give 2 rescue breaths: pinch the nose, cover their mouth with yours, and blow until the chest rises.",
+      "image": "images/cpr/adult/rescue_breathing_c.jpg"
+    },
+    {
+      "description": "Continue cycles of 30 compressions and 2 breaths until help arrives or the person starts breathing.",
+      "image": "images/cpr/adult/compression-adult.jpg.webp"
+    },
+    {
+      "description": "If breathing resumes, place them in the recovery position.",
+      "image": "images/cpr/adult/recovery-position.jpg.webp"
+    }
+  ]
+}

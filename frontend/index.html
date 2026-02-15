@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="theme-color" content="#dc2626">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="ResqTap">
+    <meta name="description" content="Step-by-step emergency response instructions for lifeguards and first responders">
+    <title>ResqTap - Emergency Response Guide</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" sizes="1024x1024" href="images/app-icon/resqtap-icon-1024.png">
+    <link rel="apple-touch-icon" href="images/app-icon/resqtap-icon-1024.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="profile-enhanced.css">
+    <link rel="stylesheet" href="modern-home.css">
+    <link rel="stylesheet" href="onboarding-tour.css">
+    <link rel="stylesheet" href="cpr-disclaimer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval' data: blob:;">
+    <!-- AWS Cognito via direct REST API calls - no CDN imports needed -->
+    <script>
+        // Error handler to show startup issues on screen
+        window.onerror = function(msg, url, line) {
+            const app = document.getElementById('app');
+            if (app) {
+                app.innerHTML = '<div style="background-color:#0f172a;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;color:white;padding:20px;text-align:center;font-family:sans-serif;">' +
+                    '<h3>Startup Error</h3><p>' + msg + '</p>' +
+                    '<small>' + url.split('/').pop() + ':' + line + '</small>' +
+                    '</div>';
+            }
+        };
+        // Capture resource loading errors (like script tags failing to load)
+        window.addEventListener('error', function(e) {
+            if (e.target && (e.target.tagName === 'SCRIPT' || e.target.tagName === 'LINK')) {
+                if (!navigator.onLine) {
+                    window.onerror('No Internet Connection. Cannot load libraries.', 'index.html', 0);
+                }
+                window.onerror('Failed to load resource: ' + (e.target.src || e.target.href), 'index.html', 0);
+            }
+        }, true);
+
+        window.addEventListener('unhandledrejection', function(event) {
+            console.error('Unhandled rejection:', event.reason);
+            // Optional: show UI feedback for unhandled promise rejections if app is stuck
+            const app = document.getElementById('app');
+            // Only show if we are still in the loading state (spinner present)
+            if (app && app.innerHTML.includes('animation:spin')) {
+                window.onerror(event.reason ? event.reason.message : 'Unknown Promise Error', 'Promise', 0);
+            }
+        });
+    </script>
+    <!-- Capacitor is loaded via native plugins, not CDN -->
+    <script type="module">
+        // Capacitor will be available via native bridge when running in app
+        // In browser, app will work without Capacitor features
+        console.log('Capacitor available:', !!window.Capacitor);
+    </script>
+</head>
+
+<body>
+    <div id="app">
+        <div style="display:flex;align-items:center;justify-content:center;height:100vh;background:#0f172a;color:white;flex-direction:column;gap:16px;">
+            <div style="font-weight:700;font-size:24px;">ResqTap</div>
+            <div id="loadingSpinner" style="width:24px;height:24px;border:3px solid rgba(255,255,255,0.3);border-top-color:white;border-radius:50%;animation:spin 1s linear infinite;"></div>
+            <div id="loadingMessage" style="font-size:14px;color:#94a3b8;">Loading resources...</div>
+            <button id="retryBtn" onclick="window.location.reload()" style="display:none;margin-top:20px;padding:10px 20px;background:#ef4444;color:white;border:none;border-radius:8px;font-weight:bold;">Retry</button>
+            <style>@keyframes spin { to { transform: rotate(360deg); } }</style>
+        </div>
+    </div>
+
+    <script>
+        // Safety Timeout: If app doesn't load in 8 seconds, show error
+        setTimeout(() => {
+            const spinner = document.getElementById('loadingSpinner');
+            if (spinner && document.getElementById('app').innerHTML.includes('animation:spin')) {
+                spinner.style.display = 'none';
+                document.getElementById('loadingMessage').innerHTML = 'App timeout (8s).<br>Check internet connection.';
+                document.getElementById('loadingMessage').style.color = '#ef4444';
+                document.getElementById('retryBtn').style.display = 'block';
+            }
+        }, 8000);
+    </script>
+
+    <script type="module" src="./script.js" crossorigin="anonymous"></script>
+    <script>
+        // Register Service Worker for offline support
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registered:', registration.scope);
+                    })
+                    .catch(error => {
+                        console.log('ServiceWorker registration failed:', error);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "drowning",
+    "name": "Drowning",
+    "category": "water",
+    "severity": "CRITICAL",
+    "description": "Water submersion emergency requiring immediate rescue",
+    "image": "/images/water/drowning.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ensure your own safety first: Do not enter water unless trained. Use reach-throw-row-go method. Throw flotation device or extend pole/towel",
+        "image": "/images/water/drowning_safety.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 immediately or direct a bystander to call while you begin rescue",
+        "image": "/images/water/drowning_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Remove from water: Support head and neck if diving injury suspected. Get person horizontal and onto firm surface",
+        "image": "/images/water/drowning_remove.png"
+      },
+      {
+        "order": 4,
+        "text": "Check responsiveness: Tap shoulders, shout 'Are you okay?' Look for chest rise, listen for breathing for no more than 10 seconds",
+        "image": "/images/water/drowning_check.png"
+      },
+      {
+        "order": 5,
+        "text": "Begin rescue breathing: If not breathing but has pulse, give 1 rescue breath every 5-6 seconds. Recheck pulse every 2 minutes",
+        "image": "/images/water/drowning_breathing.png"
+      },
+      {
+        "order": 6,
+        "text": "Begin CPR if no pulse: 30 chest compressions then 2 breaths. Push hard and fast, 2 inches deep, 100-120 per minute. Do not stop",
+        "image": "/images/water/drowning_cpr.png"
+      },
+      {
+        "order": 7,
+        "text": "Continue until: Person responds, AED arrives, trained help takes over, or you are physically exhausted",
+        "image": "/images/water/drowning_continue.png"
+      },
+      {
+        "order": 8,
+        "text": "Prevent hypothermia: Remove wet clothing, cover with blankets. Even if person seems fine, insist on medical evaluation",
+        "image": "/images/water/drowning_warm.png"
+      }
+    ]
+  },
+  {
+    "id": "near-drowning",
+    "name": "Near Drowning",
+    "category": "water",
+    "severity": "HIGH",
+    "description": "Person rescued from water who is breathing",
+    "image": "/images/water/near-drowning.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Prioritize spinal precautions: If person dove, fell, or mechanism unknown, assume spinal injury. Keep head, neck, and spine aligned",
+        "image": "/images/water/near_spinal.png"
+      },
+      {
+        "order": 2,
+        "text": "Remove from water carefully: Use backboard if available. Multiple rescuers should coordinate to keep spine aligned",
+        "image": "/images/water/near_remove.png"
+      },
+      {
+        "order": 3,
+        "text": "Call 911: All near-drowning victims need hospital evaluation. Secondary drowning can occur hours later from water in lungs",
+        "image": "/images/water/near_call.png"
+      },
+      {
+        "order": 4,
+        "text": "Position for breathing: If no spinal injury suspected, place in recovery position (on side) to prevent aspiration if vomiting occurs",
+        "image": "/images/water/near_recovery.png"
+      },
+      {
+        "order": 5,
+        "text": "Monitor continuously: Watch for changes in consciousness, breathing difficulty, or coughing. Note time in water if known",
+        "image": "/images/water/near_monitor.png"
+      },
+      {
+        "order": 6,
+        "text": "Prevent hypothermia: Remove wet clothing, wrap in blankets, move to warm environment. Even warm water can cause hypothermia",
+        "image": "/images/water/near_warm.png"
+      },
+      {
+        "order": 7,
+        "text": "Stay with victim: Condition can worsen suddenly. Do not leave alone until EMS arrives and takes over care",
+        "image": "/images/water/near_stay.png"
+      }
+    ]
+  }
+]

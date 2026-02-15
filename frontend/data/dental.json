@@ -1,0 +1,82 @@
+[
+  {
+    "id": "knocked-out-tooth",
+    "name": "Knocked Out Tooth",
+    "category": "dental",
+    "severity": "MEDIUM",
+    "description": "Avulsed permanent tooth requiring reimplantation",
+    "image": "/images/dental/knocked-out-tooth.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Find the tooth and handle by crown only (not root)",
+        "image": "/images/dental/tooth_find.png"
+      },
+      {
+        "order": 2,
+        "text": "Rinse gently with water if dirty - do not scrub",
+        "image": "/images/dental/tooth_rinse.png"
+      },
+      {
+        "order": 3,
+        "text": "Try to reinsert tooth into socket",
+        "image": "/images/dental/tooth_reinsert.png"
+      },
+      {
+        "order": 4,
+        "text": "If cannot reinsert, place in milk or saliva",
+        "image": "/images/dental/tooth_milk.png"
+      },
+      {
+        "order": 5,
+        "text": "Get to dentist or ER within 30 minutes if possible",
+        "image": "/images/dental/tooth_urgent.png"
+      },
+      {
+        "order": 6,
+        "text": "Time is critical - faster treatment = better outcome",
+        "image": "/images/dental/tooth_time.png"
+      }
+    ]
+  },
+  {
+    "id": "severe-toothache",
+    "name": "Severe Toothache",
+    "category": "dental",
+    "severity": "LOW",
+    "description": "Acute dental pain requiring relief",
+    "image": "/images/dental/severe-toothache.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse mouth with warm salt water",
+        "image": "/images/dental/toothache_rinse.png"
+      },
+      {
+        "order": 2,
+        "text": "Floss gently to remove any trapped food",
+        "image": "/images/dental/toothache_floss.png"
+      },
+      {
+        "order": 3,
+        "text": "Take over-the-counter pain medication",
+        "image": "/images/dental/toothache_pain.png"
+      },
+      {
+        "order": 4,
+        "text": "Apply cold compress to outside of cheek",
+        "image": "/images/dental/toothache_cold.png"
+      },
+      {
+        "order": 5,
+        "text": "Do not place aspirin directly on gums",
+        "image": "/images/dental/toothache_noaspirin.png"
+      },
+      {
+        "order": 6,
+        "text": "See dentist as soon as possible",
+        "image": "/images/dental/toothache_dentist.png"
+      }
+    ]
+  }
+]

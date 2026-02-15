@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Injury Care - ResqTap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="injury-body">
+    <div class="injury-layout">
+        <header class="injury-appbar">
+            <a href="index.html" class="injury-back" aria-label="Back to home">
+                <span aria-hidden="true">←</span>
+                <span class="label">Home</span>
+            </a>
+            <div class="appbar-title">
+                <span class="eyebrow">Injury guidance</span>
+                <strong id="appbarTitle">Loading...</strong>
+            </div>
+            <button id="favoriteBtn" class="favorite-btn-detail" aria-label="Add to favorites">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                </svg>
+            </button>
+        </header>
+
+        <section class="injury-hero-block">
+            <div class="injury-hero-media">
+                <img id="injuryHeroImage" src="" alt="" />
+                <div class="injury-hero-gradient"></div>
+                <div class="hero-badges" id="injuryMeta"></div>
+            </div>
+            <div class="injury-hero-info">
+                <h1 id="injuryTitle" class="injury-hero-title">Loading...</h1>
+                <p class="hero-note">High contrast, offline first aid steps.</p>
+            </div>
+        </section>
+
+        <div class="info-banner info-banner-firstaid">
+            <div class="info-icon" aria-hidden="true">ℹ️</div>
+            <div class="info-copy">
+                <strong>First aid guidance only</strong>
+                <p>Call emergency services if the condition worsens. Follow local medical advice.</p>
+            </div>
+        </div>
+
+        <section class="injury-steps-shell">
+            <div class="step-header">
+                <div>
+                    <span id="stepIndicator" class="step-chip">Step 1</span>
+                    <div class="step-progress">
+                        <div id="stepProgressFill" class="step-progress-fill"></div>
+                    </div>
+                </div>
+                <div class="step-controls">
+                    <span id="stepCounter" class="step-counter">1/1</span>
+                </div>
+            </div>
+
+            <div id="stepsList" class="step-cards"></div>
+        </section>
+    </div>
+
+    <nav class="injury-bottom-nav">
+        <button id="prevStepBtn" class="nav-btn ghost" type="button" disabled>Back</button>
+        <button id="nextStepBtn" class="nav-btn primary" type="button" disabled>Next</button>
+    </nav>
+
+    <script type="module" src="injury.js"></script>
+</body>
+</html>

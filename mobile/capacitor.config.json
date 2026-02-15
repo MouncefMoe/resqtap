@@ -1,0 +1,10 @@
+{
+  "appId": "com.resqtap.app",
+  "appName": "ResqTap",
+  "webDir": "../frontend",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true
+  }
+}

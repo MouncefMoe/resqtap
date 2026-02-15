@@ -1,0 +1,17 @@
+{
+  "title": "Burn",
+  "steps": [
+    {
+      "image": "/images/burns/first-degree-burn.jpg",
+      "description": "First-degree burns affect only the outer layer of the skin. Cool the area with water for 10 minutes."
+    },
+    {
+      "image": "/images/burns/second-degree-burn.jpg",
+      "description": "Second-degree burns blister and swell. Do not pop blisters. Cover with a sterile, non-stick bandage."
+    },
+    {
+      "image": "/images/burns/third-degree-burn.jpg",
+      "description": "Third-degree burns look charred or white. Do not remove burned clothing. Call emergency services immediately."
+    }
+  ]
+}

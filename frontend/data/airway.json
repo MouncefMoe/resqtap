@@ -1,0 +1,132 @@
+[
+  {
+    "id": "choking-adult",
+    "name": "Choking Adult",
+    "category": "airway",
+    "severity": "CRITICAL",
+    "description": "Airway obstruction in adults requiring Heimlich maneuver",
+    "image": "/images/airway/choking-adult.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Assess the situation: Ask 'Are you choking?' If the person cannot speak, cough forcefully, or breathe, they have a severe obstruction requiring immediate action",
+        "image": "/images/choking/adult_ask.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 or direct someone specific to call. Say 'You in the red shirt, call 911 now!' Stay with the victim",
+        "image": "/images/choking/adult_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Position yourself: Stand behind the person with one foot between their feet for stability. Wrap your arms around their waist",
+        "image": "/images/choking/adult_position.png"
+      },
+      {
+        "order": 4,
+        "text": "Hand placement: Make a fist with your dominant hand. Place thumb side against the abdomen, above the navel and well below the breastbone",
+        "image": "/images/choking/adult_fist.png"
+      },
+      {
+        "order": 5,
+        "text": "Perform abdominal thrusts: Grasp your fist with your other hand. Pull sharply inward and upward in a J-shaped motion. Repeat until object is expelled or person becomes unconscious",
+        "image": "/images/choking/adult_thrust.png"
+      },
+      {
+        "order": 6,
+        "text": "If unconscious: Lower person to ground carefully. Call 911 if not done. Begin CPR starting with chest compressions. Check mouth for visible object before giving breaths",
+        "image": "/images/choking/adult_cpr.png"
+      },
+      {
+        "order": 7,
+        "text": "After object is expelled: Encourage person to seek medical evaluation. Some internal injury may have occurred from thrusts",
+        "image": "/images/choking/adult_after.png"
+      }
+    ]
+  },
+  {
+    "id": "choking-child",
+    "name": "Choking Child",
+    "category": "airway",
+    "severity": "CRITICAL",
+    "description": "Airway obstruction in children (1-12 years)",
+    "image": "/images/airway/choking-child.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Determine if child can cough, cry, or speak",
+        "image": "/images/choking/child_assess.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 if complete obstruction",
+        "image": "/images/choking/child_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Kneel behind child and perform abdominal thrusts",
+        "image": "/images/choking/child_position.png"
+      },
+      {
+        "order": 4,
+        "text": "Use less force than for adults",
+        "image": "/images/choking/child_thrust.png"
+      },
+      {
+        "order": 5,
+        "text": "Continue until object is expelled or child becomes unconscious",
+        "image": "/images/choking/child_continue.png"
+      },
+      {
+        "order": 6,
+        "text": "Begin CPR if child becomes unconscious",
+        "image": "/images/choking/child_cpr.png"
+      }
+    ]
+  },
+  {
+    "id": "choking-infant",
+    "name": "Choking Infant",
+    "category": "airway",
+    "severity": "CRITICAL",
+    "description": "Airway obstruction in infants (under 1 year)",
+    "image": "/images/airway/choking-infant.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Recognize choking: Infant cannot cry, cough, or breathe. May turn blue. Silent choking is a medical emergency",
+        "image": "/images/choking/infant_recognize.png"
+      },
+      {
+        "order": 2,
+        "text": "Position for back blows: Hold infant face-down along your forearm, head lower than chest. Support jaw with your hand without covering mouth",
+        "image": "/images/choking/infant_position.png"
+      },
+      {
+        "order": 3,
+        "text": "Give 5 back blows: Use heel of your hand to deliver 5 firm blows between shoulder blades. Check if object is expelled after each blow",
+        "image": "/images/choking/infant_backblows.png"
+      },
+      {
+        "order": 4,
+        "text": "Turn infant over: Support head and neck. Sandwich infant between forearms and turn face-up, keeping head lower than body",
+        "image": "/images/choking/infant_turnover.png"
+      },
+      {
+        "order": 5,
+        "text": "Give 5 chest thrusts: Place 2 fingers on breastbone just below nipple line. Give 5 quick downward thrusts about 1.5 inches deep",
+        "image": "/images/choking/infant_thrusts.png"
+      },
+      {
+        "order": 6,
+        "text": "Repeat cycle: Continue alternating 5 back blows and 5 chest thrusts until object is expelled or infant becomes unconscious",
+        "image": "/images/choking/infant_repeat.png"
+      },
+      {
+        "order": 7,
+        "text": "If unconscious: Call 911. Begin infant CPR. Look in mouth before giving breaths - only remove object if clearly visible",
+        "image": "/images/choking/infant_cpr.png"
+      }
+    ]
+  }
+]

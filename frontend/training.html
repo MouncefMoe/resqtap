@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>CPR Training - ResqTap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="settings-shell">
+    <header class="settings-header">
+        <a class="ghost-link" href="settings.html">← Settings</a>
+        <h1>CPR Training Mode</h1>
+        <p class="muted">Offline quizzes for Adult, Child, Infant CPR. Syncs when signed in.</p>
+    </header>
+
+    <section class="card">
+        <h2>Choose scenario</h2>
+        <div class="button-row">
+            <button class="nav-btn primary" data-scenario="adult">Adult</button>
+            <button class="nav-btn ghost" data-scenario="child">Child</button>
+            <button class="nav-btn ghost" data-scenario="infant">Infant</button>
+        </div>
+    </section>
+
+    <section id="quizSection" class="card is-hidden">
+        <div id="questionText" class="question-text"></div>
+        <div id="options" class="options-list"></div>
+        <div class="button-row">
+            <button id="nextQuestion" class="nav-btn primary" type="button">Next</button>
+        </div>
+    </section>
+
+    <section id="resultSection" class="card is-hidden">
+        <h2>Session complete</h2>
+        <p id="scoreText" class="muted"></p>
+        <div class="button-row">
+            <button id="restartBtn" class="nav-btn primary" type="button">New Session</button>
+            <a class="nav-btn ghost" href="progress.html">View Progress</a>
+        </div>
+    </section>
+</div>
+
+<script>
+    // Redirect to profile page for training - training.js has been removed
+    window.location.href = 'profile.html';
+</script>
+</body>
+</html>

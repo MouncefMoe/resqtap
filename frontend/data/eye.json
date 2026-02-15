@@ -1,0 +1,82 @@
+[
+  {
+    "id": "eye-injury-chemical",
+    "name": "Eye Injury Chemical",
+    "category": "eye",
+    "severity": "HIGH",
+    "description": "Chemical splash in eye",
+    "image": "/images/eye/eye-injury-chemical.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Flush eye immediately with clean water for 15-20 minutes",
+        "image": "/images/eye/chemical_flush.png"
+      },
+      {
+        "order": 2,
+        "text": "Hold eyelids open while flushing",
+        "image": "/images/eye/chemical_hold.png"
+      },
+      {
+        "order": 3,
+        "text": "Remove contact lenses if present",
+        "image": "/images/eye/chemical_contacts.png"
+      },
+      {
+        "order": 4,
+        "text": "Call Poison Control or 911",
+        "image": "/images/eye/chemical_call.png"
+      },
+      {
+        "order": 5,
+        "text": "Do not rub the eye",
+        "image": "/images/eye/chemical_norub.png"
+      },
+      {
+        "order": 6,
+        "text": "Cover with loose bandage and seek emergency care",
+        "image": "/images/eye/chemical_cover.png"
+      }
+    ]
+  },
+  {
+    "id": "eye-injury-object",
+    "name": "Eye Injury Object",
+    "category": "eye",
+    "severity": "MEDIUM",
+    "description": "Foreign object in eye",
+    "image": "/images/eye/eye-injury-object.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Do not rub the eye",
+        "image": "/images/eye/object_norub.png"
+      },
+      {
+        "order": 2,
+        "text": "Try blinking to produce tears to flush object",
+        "image": "/images/eye/object_blink.png"
+      },
+      {
+        "order": 3,
+        "text": "Gently pull upper lid over lower lid",
+        "image": "/images/eye/object_pull.png"
+      },
+      {
+        "order": 4,
+        "text": "Flush with clean water if object doesn't come out",
+        "image": "/images/eye/object_flush.png"
+      },
+      {
+        "order": 5,
+        "text": "Do not attempt to remove embedded objects",
+        "image": "/images/eye/object_notouch.png"
+      },
+      {
+        "order": 6,
+        "text": "Seek medical attention if object remains",
+        "image": "/images/eye/object_medical.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="ResqTap medical icon">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef2f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="116" y="116" width="280" height="280" rx="72" fill="#ffffff" stroke="#e2e8f0" stroke-width="10"/>
+  <path fill="#d32f2f" d="M256 370s-104-58-104-144c0-42 30-74 73-74 15 0 30 5 41 13 11-8 26-13 41-13 43 0 73 32 73 74 0 86-104 144-104 144Z"/>
+  <path fill="#ffffff" d="M226 264c-5 0-9-4-9-9s4-9 9-9h36l12-42c1-4 5-7 9-7h1c4 0 8 3 9 7l16 68 8-24c1-4 5-7 9-7h32c5 0 9 4 9 9s-4 9-9 9h-25l-16 48c-1 4-5 7-9 7h-1c-4 0-8-3-9-7l-16-67-7 23c-1 4-5 7-9 7h-40Z"/>
+</svg>

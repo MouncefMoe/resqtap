@@ -1,0 +1,42 @@
+[
+  {
+    "id": "panic-attack",
+    "name": "Panic Attack",
+    "category": "mental-health",
+    "severity": "MEDIUM",
+    "description": "Acute anxiety episode with physical symptoms",
+    "image": "/images/mental-health/panic-attack.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Stay calm and reassure person they are safe",
+        "image": "/images/mental/panic_calm.png"
+      },
+      {
+        "order": 2,
+        "text": "Guide them to a quiet area",
+        "image": "/images/mental/panic_quiet.png"
+      },
+      {
+        "order": 3,
+        "text": "Help with slow deep breathing: inhale 4 seconds, exhale 4 seconds",
+        "image": "/images/mental/panic_breathe.png"
+      },
+      {
+        "order": 4,
+        "text": "Ground them by focusing on 5 things they can see",
+        "image": "/images/mental/panic_ground.png"
+      },
+      {
+        "order": 5,
+        "text": "Stay with them until symptoms pass",
+        "image": "/images/mental/panic_stay.png"
+      },
+      {
+        "order": 6,
+        "text": "Suggest professional help if attacks are frequent",
+        "image": "/images/mental/panic_help.png"
+      }
+    ]
+  }
+]

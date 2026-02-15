@@ -1,0 +1,242 @@
+[
+  {
+    "id": "diabetic-emergency-low-blood-sugar",
+    "name": "Diabetic Emergency Low Blood Sugar",
+    "category": "medical",
+    "severity": "HIGH",
+    "description": "Hypoglycemia requiring immediate sugar intake",
+    "image": "/images/medical/diabetic-emergency-low-blood-sugar.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Recognize signs: shakiness, confusion, sweating, hunger",
+        "image": "/images/medical/diabetic_low_signs.png"
+      },
+      {
+        "order": 2,
+        "text": "Give fast-acting sugar: juice, candy, glucose tablets",
+        "image": "/images/medical/diabetic_low_sugar.png"
+      },
+      {
+        "order": 3,
+        "text": "Have person sit down safely",
+        "image": "/images/medical/diabetic_low_sit.png"
+      },
+      {
+        "order": 4,
+        "text": "Wait 15 minutes and recheck symptoms",
+        "image": "/images/medical/diabetic_low_wait.png"
+      },
+      {
+        "order": 5,
+        "text": "Give more sugar if symptoms persist",
+        "image": "/images/medical/diabetic_low_more.png"
+      },
+      {
+        "order": 6,
+        "text": "Call 911 if person becomes unconscious",
+        "image": "/images/medical/diabetic_low_call.png"
+      }
+    ]
+  },
+  {
+    "id": "diabetic-emergency-high-blood-sugar",
+    "name": "Diabetic Emergency High Blood Sugar",
+    "category": "medical",
+    "severity": "HIGH",
+    "description": "Hyperglycemia requiring medical attention",
+    "image": "/images/medical/diabetic-emergency-high-blood-sugar.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Recognize signs: extreme thirst, frequent urination, fruity breath",
+        "image": "/images/medical/diabetic_high_signs.png"
+      },
+      {
+        "order": 2,
+        "text": "Give water if person is conscious",
+        "image": "/images/medical/diabetic_high_water.png"
+      },
+      {
+        "order": 3,
+        "text": "Help person check blood sugar if they have meter",
+        "image": "/images/medical/diabetic_high_check.png"
+      },
+      {
+        "order": 4,
+        "text": "Call 911 if confused, vomiting, or very ill",
+        "image": "/images/medical/diabetic_high_call.png"
+      },
+      {
+        "order": 5,
+        "text": "Help person take insulin if they are able",
+        "image": "/images/medical/diabetic_high_insulin.png"
+      },
+      {
+        "order": 6,
+        "text": "Monitor for worsening symptoms",
+        "image": "/images/medical/diabetic_high_monitor.png"
+      }
+    ]
+  },
+  {
+    "id": "shock",
+    "name": "Shock",
+    "category": "medical",
+    "severity": "CRITICAL",
+    "description": "Life-threatening circulatory failure",
+    "image": "/images/medical/shock.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 immediately",
+        "image": "/images/medical/shock_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Lay person flat with legs elevated 12 inches",
+        "image": "/images/medical/shock_position.png"
+      },
+      {
+        "order": 3,
+        "text": "Do not move if spinal injury suspected",
+        "image": "/images/medical/shock_nomove.png"
+      },
+      {
+        "order": 4,
+        "text": "Cover with blanket to maintain body temperature",
+        "image": "/images/medical/shock_warm.png"
+      },
+      {
+        "order": 5,
+        "text": "Do not give food or water",
+        "image": "/images/medical/shock_nofood.png"
+      },
+      {
+        "order": 6,
+        "text": "Monitor breathing and begin CPR if needed",
+        "image": "/images/medical/shock_monitor.png"
+      }
+    ]
+  },
+  {
+    "id": "appendicitis",
+    "name": "Appendicitis",
+    "category": "medical",
+    "severity": "HIGH",
+    "description": "Inflamed appendix requiring surgery",
+    "image": "/images/medical/appendicitis.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Recognize symptoms: pain starting near navel moving to lower right",
+        "image": "/images/medical/appendix_symptoms.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 or go to ER immediately",
+        "image": "/images/medical/appendix_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Do not eat or drink anything",
+        "image": "/images/medical/appendix_nofood.png"
+      },
+      {
+        "order": 4,
+        "text": "Do not take laxatives or pain medication",
+        "image": "/images/medical/appendix_nomeds.png"
+      },
+      {
+        "order": 5,
+        "text": "Lie still in comfortable position",
+        "image": "/images/medical/appendix_rest.png"
+      },
+      {
+        "order": 6,
+        "text": "Monitor for fever and worsening pain",
+        "image": "/images/medical/appendix_monitor.png"
+      }
+    ]
+  },
+  {
+    "id": "severe-dehydration",
+    "name": "Severe Dehydration",
+    "category": "medical",
+    "severity": "HIGH",
+    "description": "Critical fluid loss requiring intervention",
+    "image": "/images/medical/severe-dehydration.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Recognize signs: extreme thirst, dark urine, dizziness, confusion",
+        "image": "/images/medical/dehydrate_signs.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 if person is confused or unconscious",
+        "image": "/images/medical/dehydrate_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Give small sips of water or oral rehydration solution",
+        "image": "/images/medical/dehydrate_fluids.png"
+      },
+      {
+        "order": 4,
+        "text": "Move to cool environment",
+        "image": "/images/medical/dehydrate_cool.png"
+      },
+      {
+        "order": 5,
+        "text": "Have person lie down with legs elevated",
+        "image": "/images/medical/dehydrate_position.png"
+      },
+      {
+        "order": 6,
+        "text": "Seek medical attention for severe cases",
+        "image": "/images/medical/dehydrate_medical.png"
+      }
+    ]
+  },
+  {
+    "id": "abdominal-pain-severe",
+    "name": "Abdominal Pain Severe",
+    "category": "medical",
+    "severity": "HIGH",
+    "description": "Acute abdominal emergency",
+    "image": "/images/medical/abdominal-pain-severe.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 if pain is severe or with fever, vomiting blood",
+        "image": "/images/medical/abdomen_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Do not eat or drink anything",
+        "image": "/images/medical/abdomen_nofood.png"
+      },
+      {
+        "order": 3,
+        "text": "Do not take pain medication until evaluated",
+        "image": "/images/medical/abdomen_nomeds.png"
+      },
+      {
+        "order": 4,
+        "text": "Lie in position of comfort",
+        "image": "/images/medical/abdomen_rest.png"
+      },
+      {
+        "order": 5,
+        "text": "Monitor for changes in symptoms",
+        "image": "/images/medical/abdomen_monitor.png"
+      },
+      {
+        "order": 6,
+        "text": "Go to ER if symptoms persist or worsen",
+        "image": "/images/medical/abdomen_er.png"
+      }
+    ]
+  }
+]

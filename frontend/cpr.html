@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CPR Guidance</title>
+    <link rel="stylesheet" href="cpr.css">
+    <link rel="stylesheet" href="cpr-ultra-modern.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <script type="module">
+        // Capacitor is loaded via native plugins when running in mobile app
+        // In browser, app will work without Capacitor features
+        console.log('Capacitor available:', !!window.Capacitor);
+    </script>
+</head>
+<body>
+<div class="cpr-shell">
+    <div class="top-bar">
+        <div class="top-title">
+            <h1>CPR Guidance</h1>
+            <span>Follow calm, clear steps until help arrives.</span>
+        </div>
+        <a class="ghost-link" href="index.html">
+            <span aria-hidden="true">🏠</span> Home
+        </a>
+    </div>
+
+    <section id="typeSelection" class="panel selection-panel">
+        <div class="top-title">
+            <h2 style="margin:0;font-size:18px;">Choose CPR type</h2>
+            <span>Pick the person you’re helping. Buttons respond instantly.</span>
+        </div>
+        <div class="type-grid" id="cprSelector">
+            <button class="type-card" data-type="adult">
+                <div class="type-icon">🧑‍⚕️</div>
+                <div class="type-copy">
+                    <div class="type-title">Adult CPR</div>
+                    <div class="type-subtitle">Age 8+ • Hard, fast compressions</div>
+                </div>
+            </button>
+            <button class="type-card" data-type="child">
+                <div class="type-icon">🧒</div>
+                <div class="type-copy">
+                    <div class="type-title">Child CPR</div>
+                    <div class="type-subtitle">1–8 years • One-hand compressions</div>
+                </div>
+            </button>
+            <button class="type-card" data-type="infant">
+                <div class="type-icon">👶</div>
+                <div class="type-copy">
+                    <div class="type-title">Infant CPR</div>
+                    <div class="type-subtitle">0–12 months • Two-finger compressions</div>
+                </div>
+            </button>
+        </div>
+    </section>
+
+    <section id="stepViewer" class="panel viewer is-hidden">
+        <div class="viewer-head">
+            <div class="pill" id="typeBadge">
+                <span id="selectedType">CPR</span>
+                <small id="selectedSubtitle"></small>
+            </div>
+            <button id="startGuidedBtn" class="nav-btn primary" style="min-width:auto;padding:8px 12px;font-size:13px;">Start Guided CPR</button>
+            <button id="changeType" class="ghost-link" type="button">Switch type</button>
+        </div>
+        <div class="viewer-body">
+            <div class="step-card">
+                <div class="step-meta">
+                    <div>
+                        <div id="stepNumber" class="step-number">Step 1</div>
+                        <div id="stepTitle" class="step-title">Stay calm</div>
+                    </div>
+                    <div class="progress" aria-label="Progress">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                </div>
+                <div class="progress-row">
+                    <span id="stepCounter">Step 1 of 1</span>
+                    <span id="stepHint">Hands-only CPR unless trained to give breaths.</span>
+                </div>
+
+                <div class="media-wrap">
+                    <img id="stepImage" loading="lazy" alt="CPR step">
+                </div>
+                <ul id="stepInstructions" class="instructions">
+                    <li>Start instantly.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bottom-bar">
+            <button id="navBack" class="nav-btn" type="button">⬅ Back</button>
+            <div class="nav-status" id="navStatus">Step 1 of 1</div>
+            <button id="navNext" class="nav-btn primary" type="button">Next ➜</button>
+        </div>
+    </section>
+</div>
+
+<!-- Guided Mode Overlay -->
+<div id="guidedOverlay" class="guided-overlay is-hidden">
+    <div class="guided-panel">
+        <div class="guided-top">
+            <div>
+                <h2 class="guided-title">CPR Assistant</h2>
+                <p class="guided-sub" id="guidedSub">Follow the rhythm.</p>
+            </div>
+            <button id="guidedClose" class="icon-btn">✕</button>
+        </div>
+
+        <!-- Pre-check Screen -->
+        <div id="precheckScreen" class="precheck">
+            <h3 class="precheck-title">Before you start:</h3>
+            <ul class="checklist">
+                <li>Is the scene safe?</li>
+                <li>Is the person unresponsive?</li>
+                <li>Has 911 been called?</li>
+            </ul>
+            <div class="check-actions">
+                <button id="precheckContinue" class="nav-btn primary">Yes, Start Now</button>
+            </div>
+        </div>
+
+        <!-- Countdown -->
+        <div id="countdownScreen" class="guided-countdown is-hidden">
+            <div class="countdown-number" id="countdownNumber">3</div>
+            <p>Get ready...</p>
+        </div>
+
+        <!-- Active Guidance -->
+        <div class="guided-body">
+            <!-- Enhanced Multi-Layer Pulse Container -->
+            <div class="pulse-container">
+                <!-- Concentric pulsing rings -->
+                <div class="pulse-ring pulse-ring-1"></div>
+                <div class="pulse-ring pulse-ring-2"></div>
+                <div class="pulse-ring pulse-ring-3"></div>
+
+                <!-- Main pulse heart -->
+                <div class="pulse-stack">
+                    <div id="guidedPulse" class="pulse-heart"></div>
+                    <div id="guidedCount" class="pulse-count">0</div>
+                    <div id="guidedRatio" class="pulse-ratio">30:2</div>
+                </div>
+            </div>
+
+            <!-- BPM Accuracy Meter -->
+            <div class="bpm-accuracy" id="bpmAccuracyContainer" style="display:none;">
+                <div class="bpm-label">Your Rhythm</div>
+                <div class="bpm-value" id="bpmAccuracy">110 BPM</div>
+                <div class="bpm-quality" id="bpmQuality">Perfect</div>
+            </div>
+
+            <!-- Depth Indicator -->
+            <div class="depth-indicator" id="depthIndicator">
+                <div class="depth-bar">
+                    <div class="depth-fill" id="depthFill"></div>
+                </div>
+                <span class="depth-label" id="depthLabel">Maintain Rhythm</span>
+            </div>
+
+            <div class="guided-meta">
+                <div>
+                    <p class="eyebrow">Phase</p>
+                    <h3 style="margin:0" id="guidedPhase">Compressions</h3>
+                </div>
+                <div>
+                    <p class="eyebrow">Cycle</p>
+                    <h3 style="margin:0" id="guidedCycle">1</h3>
+                </div>
+                <div class="toggle-row">
+                    <label class="toggle">
+                        <input type="checkbox" id="toggleSound" checked> Sound
+                    </label>
+                    <label class="toggle">
+                        <input type="checkbox" id="toggleBreathSound"> Breath Cue
+                    </label>
+                    <label class="toggle">
+                        <input type="checkbox" id="toggleVoice"> Voice
+                    </label>
+                    <label class="toggle">
+                        <input type="checkbox" id="togglePractice"> Practice
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="control-row">
+            <button id="guidedPause" class="nav-btn ghost">Pause</button>
+            <button id="guidedResume" class="nav-btn primary is-hidden">Resume</button>
+            <button id="guidedStop" class="nav-btn danger">Stop</button>
+            <button id="skipBreaths" class="nav-btn ghost is-hidden">Skip Breaths</button>
+            <button id="fullscreenBtn" class="nav-btn ghost">Fullscreen</button>
+        </div>
+
+        <!-- Session Summary (hidden initially) -->
+        <div id="sessionSummary" class="session-summary is-hidden">
+            <h3>CPR Session Complete</h3>
+            <div class="summary-stats" id="summaryStats"></div>
+            <button id="newSessionBtn" class="nav-btn primary">Practice Again</button>
+            <button id="closeSummaryBtn" class="nav-btn ghost">Close</button>
+        </div>
+
+        <div id="stopConfirm" class="stop-confirm is-hidden">
+            <p style="margin:0 0 8px"><strong>End session?</strong></p>
+            <div class="stop-actions">
+                <button id="confirmStop" class="nav-btn danger">End CPR</button>
+                <button id="cancelStop" class="nav-btn ghost">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="cpr.js"></script>
+<!-- CPR Disclaimer Modal (JavaScript will populate) -->
+<link rel="stylesheet" href="cpr-disclaimer.css">
+<script type="module">
+  import { initDisclaimer } from './cpr-disclaimer.js';
+  initDisclaimer();
+</script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "emergency-childbirth",
+    "name": "Emergency Childbirth",
+    "category": "pregnancy",
+    "severity": "CRITICAL",
+    "description": "Delivering a baby outside hospital",
+    "image": "/images/pregnancy/emergency-childbirth.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 immediately",
+        "image": "/images/pregnancy/birth_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Have mother lie on back with knees bent",
+        "image": "/images/pregnancy/birth_position.png"
+      },
+      {
+        "order": 3,
+        "text": "Wash hands and gather clean towels",
+        "image": "/images/pregnancy/birth_prepare.png"
+      },
+      {
+        "order": 4,
+        "text": "Support baby's head as it emerges - do not pull",
+        "image": "/images/pregnancy/birth_support.png"
+      },
+      {
+        "order": 5,
+        "text": "Clear baby's airway and keep warm",
+        "image": "/images/pregnancy/birth_clear.png"
+      },
+      {
+        "order": 6,
+        "text": "Do not cut umbilical cord - wait for paramedics",
+        "image": "/images/pregnancy/birth_cord.png"
+      }
+    ]
+  },
+  {
+    "id": "miscarriage",
+    "name": "Miscarriage",
+    "category": "pregnancy",
+    "severity": "HIGH",
+    "description": "Pregnancy loss requiring medical attention",
+    "image": "/images/pregnancy/miscarriage.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 if heavy bleeding or severe pain",
+        "image": "/images/pregnancy/miscarriage_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Have woman lie down comfortably",
+        "image": "/images/pregnancy/miscarriage_rest.png"
+      },
+      {
+        "order": 3,
+        "text": "Save any tissue passed for medical examination",
+        "image": "/images/pregnancy/miscarriage_save.png"
+      },
+      {
+        "order": 4,
+        "text": "Monitor for signs of shock",
+        "image": "/images/pregnancy/miscarriage_shock.png"
+      },
+      {
+        "order": 5,
+        "text": "Provide emotional support",
+        "image": "/images/pregnancy/miscarriage_support.png"
+      },
+      {
+        "order": 6,
+        "text": "Transport to hospital or call for emergency care",
+        "image": "/images/pregnancy/miscarriage_transport.png"
+      }
+    ]
+  }
+]

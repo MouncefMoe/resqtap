@@ -1,0 +1,30 @@
+### ✅ Create a new emergency plan
+POST http://localhost:8080/api/crisis
+Content-Type: application/json
+### Create plan with image
+POST http://localhost:8080/api/crisis
+Content-Type: application/json
+
+{
+  "title": "Nosebleed Emergency",
+  "category": "Medical",
+  "steps": ["Sit down", "Pinch nose", "Apply cold compress"],
+  "emergencyContact": "911",
+  "imageUrl": "https://example.com/nosebleed.png"
+}
+###
+
+### 🔍 Get all crisis plans
+GET http://localhost:8080/api/crisis
+
+###
+
+### 📄 Get a plan by ID
+GET http://localhost:8080/api/crisis/1
+
+###
+
+### ❌ Delete a plan by ID
+DELETE http://localhost:8080/api/crisis/1
+### 🔍 Search for 'nose'
+GET http://localhost:8080/api/crisis/search?term=nose

@@ -1,0 +1,67 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Node ###
+node_modules/
+npm-debug.log*
+
+### Environment ###
+.env
+.env.*
+*.log
+
+### Android ###
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/android/build/
+mobile/android/capacitor-cordova-android-plugins/
+*.apk
+*.aab
+*.keystore
+
+### iOS ###
+mobile/ios/App/Pods/
+mobile/ios/DerivedData/
+*.xcuserstate
+mobile/ios/capacitor-cordova-ios-plugins/
+
+### Backup folders ###
+ios_backup/
+_archived_2026-01-09/
+
+### Misc ###
+.DS_Store
+*.swp
+*.swo
+*~

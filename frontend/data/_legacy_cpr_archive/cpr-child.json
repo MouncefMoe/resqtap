@@ -1,0 +1,33 @@
+{
+  "title": "Child CPR (Ages 1-8)",
+  "steps": [
+    {
+      "description": "Check for responsiveness and call emergency services immediately if unresponsive.",
+      "image": "images/cpr/child/wakingup-kid.png"
+    },
+    {
+      "description": "Check the pulse using the carotid artery (neck).",
+      "image": "images/cpr/child/checking-child.jpg"
+    },
+    {
+      "description": "Place the child on a flat surface and start chest compressions.",
+      "image": "images/cpr/child/hand-child.webp"
+    },
+    {
+      "description": "Use one hand for compressions, pressing about 2 inches deep at a rate of 100–120 per minute.",
+      "image": "images/cpr/child/one-hand.jpg"
+    },
+    {
+      "description": "After 30 compressions, open the airway using the head-tilt, chin-lift method.",
+      "image": "images/cpr/child/rescue_breathing_a.jpg"
+    },
+    {
+      "description": "Give 2 rescue breaths, watching for chest rise.",
+      "image": "images/cpr/child/mouth breath .jpeg"
+    },
+    {
+      "description": "Repeat the cycle until help arrives or child starts breathing.",
+      "image": "images/cpr/child/recovry-kid.jpg"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Theme Colors -->
+    <color name="colorPrimary">#667EEA</color>
+    <color name="colorPrimaryDark">#5568D3</color>
+    <color name="colorAccent">#667EEA</color>
+    
+    <!-- Launcher Icon Background (white for clean look) -->
+    <color name="ic_launcher_background">#FFFFFF</color>
+    
+    <!-- Splash Screen Background -->
+    <color name="splash_background">#FFFFFF</color>
+</resources>

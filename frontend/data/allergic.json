@@ -1,0 +1,132 @@
+[
+  {
+    "id": "anaphylaxis",
+    "name": "Anaphylaxis",
+    "category": "allergic",
+    "severity": "CRITICAL",
+    "description": "Severe allergic reaction requiring epinephrine",
+    "image": "/images/allergic/anaphylaxis.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Recognize anaphylaxis: Symptoms include throat tightening, difficulty breathing, swelling of face/lips/tongue, hives, dizziness, rapid pulse. Can progress within minutes",
+        "image": "/images/allergic/anaphy_recognize.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 immediately: State 'severe allergic reaction' or 'anaphylaxis.' This is a life-threatening emergency requiring immediate medical care",
+        "image": "/images/allergic/anaphy_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Locate epinephrine auto-injector (EpiPen): Check person's bag, pockets, or ask them. Many allergy sufferers carry one. Time is critical",
+        "image": "/images/allergic/anaphy_find.png"
+      },
+      {
+        "order": 4,
+        "text": "Use EpiPen: Remove safety cap. Hold orange tip against outer mid-thigh (through clothing is OK). Press firmly until click. Hold for 10 seconds",
+        "image": "/images/allergic/anaphy_epipen.png"
+      },
+      {
+        "order": 5,
+        "text": "Position the person: If conscious and breathing, have them sit up for easier breathing. If showing signs of shock (pale, dizzy), lay flat with legs elevated",
+        "image": "/images/allergic/anaphy_position.png"
+      },
+      {
+        "order": 6,
+        "text": "Monitor breathing: Watch chest rise and fall. If breathing stops, begin CPR immediately. Be prepared - condition can deteriorate rapidly",
+        "image": "/images/allergic/anaphy_monitor.png"
+      },
+      {
+        "order": 7,
+        "text": "Second dose: If symptoms don't improve or return after 5-15 minutes, give second EpiPen on opposite thigh if available",
+        "image": "/images/allergic/anaphy_second.png"
+      },
+      {
+        "order": 8,
+        "text": "Stay until EMS arrives: Even if symptoms improve, person must go to hospital. Biphasic reaction can occur hours later",
+        "image": "/images/allergic/anaphy_stay.png"
+      }
+    ]
+  },
+  {
+    "id": "allergic-reaction",
+    "name": "Allergic Reaction",
+    "category": "allergic",
+    "severity": "MEDIUM",
+    "description": "Mild to moderate allergic response",
+    "image": "/images/allergic/allergic-reaction.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Remove or stop exposure to allergen",
+        "image": "/images/allergic/reaction_remove.png"
+      },
+      {
+        "order": 2,
+        "text": "Give antihistamine if available and person can swallow",
+        "image": "/images/allergic/reaction_antihistamine.png"
+      },
+      {
+        "order": 3,
+        "text": "Watch for signs of worsening: difficulty breathing, swelling",
+        "image": "/images/allergic/reaction_watch.png"
+      },
+      {
+        "order": 4,
+        "text": "Apply cool compress to itchy areas",
+        "image": "/images/allergic/reaction_cool.png"
+      },
+      {
+        "order": 5,
+        "text": "Call 911 if symptoms worsen rapidly",
+        "image": "/images/allergic/reaction_call.png"
+      },
+      {
+        "order": 6,
+        "text": "Seek medical attention if reaction is severe or persistent",
+        "image": "/images/allergic/reaction_medical.png"
+      }
+    ]
+  },
+  {
+    "id": "bee-sting",
+    "name": "Bee Sting",
+    "category": "allergic",
+    "severity": "MEDIUM",
+    "description": "Insect sting with potential allergic reaction",
+    "image": "/images/allergic/bee-sting.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Remove stinger by scraping sideways with credit card",
+        "image": "/images/allergic/bee_remove.png"
+      },
+      {
+        "order": 2,
+        "text": "Clean area with soap and water",
+        "image": "/images/allergic/bee_clean.png"
+      },
+      {
+        "order": 3,
+        "text": "Apply ice to reduce swelling",
+        "image": "/images/allergic/bee_ice.png"
+      },
+      {
+        "order": 4,
+        "text": "Take antihistamine for itching",
+        "image": "/images/allergic/bee_antihistamine.png"
+      },
+      {
+        "order": 5,
+        "text": "Watch for signs of allergic reaction",
+        "image": "/images/allergic/bee_watch.png"
+      },
+      {
+        "order": 6,
+        "text": "Call 911 if difficulty breathing or widespread reaction",
+        "image": "/images/allergic/bee_call.png"
+      }
+    ]
+  }
+]

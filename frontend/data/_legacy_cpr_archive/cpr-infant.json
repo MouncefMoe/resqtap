@@ -1,0 +1,37 @@
+{
+  "title": "Infant CPR (Ages 0–12 months)",
+  "steps": [
+    {
+      "description": "Tap the baby's foot and shout to check responsiveness.",
+      "image": "images/cpr/infant/wakingup-baby.jpg.webp"
+    },
+    {
+      "description": "Call emergency services immediately if unresponsive.",
+      "image": "images/cpr/infant/call991.jpg"
+    },
+    {
+      "description": "Check for a pulse using the brachial artery (inside of upper arm).",
+      "image": "images/cpr/infant/pulse-baby.jpg.jpg"
+    },
+    {
+      "description": "Place the infant on a firm surface and begin chest compressions using two fingers in the center of the chest.",
+      "image": "images/cpr/infant/cpr-baby.webp"
+    },
+    {
+      "description": "Give 30 gentle compressions at a depth of 1.5 inches.",
+      "image": "images/cpr/infant/two-fingers.jpg.webp"
+    },
+    {
+      "description": "Open the airway with a gentle head tilt.",
+      "image": "images/cpr/infant/open-airway-baby.jpg"
+    },
+    {
+      "description": "Cover the infant’s mouth and nose with your mouth and give 2 small puffs of air.",
+      "image": "images/cpr/infant/breath-baby.png"
+    },
+    {
+      "description": "Repeat the cycle of 30 compressions and 2 breaths.",
+      "image": "images/cpr/infant/cpr2-baby.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>CPR Progress - ResqTap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="settings-shell">
+    <header class="settings-header">
+        <a class="ghost-link" href="settings.html">← Settings</a>
+        <h1>CPR Training Progress</h1>
+        <p class="muted">Offline view of your training history. Syncs when signed in.</p>
+    </header>
+
+    <section class="card">
+        <div class="card-title-row">
+            <h2>Summary</h2>
+            <span id="refreshBadge" class="badge muted-badge">Checking...</span>
+        </div>
+        <p id="lastDate" class="muted">Last training: —</p>
+        <p id="totalSessions" class="muted">Total sessions: 0</p>
+    </section>
+
+    <section class="card">
+        <h2>Monthly tally</h2>
+        <ul id="monthlyList" class="contact-list"></ul>
+    </section>
+</div>
+
+<script type="module" src="progress.js"></script>
+</body>
+</html>

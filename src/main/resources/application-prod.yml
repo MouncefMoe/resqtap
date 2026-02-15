@@ -1,0 +1,64 @@
+# Production Configuration - Uses PostgreSQL (AWS RDS ready)
+
+server:
+  port: ${PORT:8080}
+
+spring:
+  # PostgreSQL Database (AWS RDS)
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/resqtap}
+    username: ${DATABASE_USERNAME:resqtap_user}
+    password: ${DATABASE_PASSWORD:changeme}
+    driver-class-name: org.postgresql.Driver
+
+    # Connection Pool (HikariCP)
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+      idle-timeout: 30000
+      connection-timeout: 20000
+      max-lifetime: 1800000
+
+  # JPA Configuration
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+        temp:
+          use_jdbc_metadata_defaults: false
+
+  # H2 Console disabled in production
+  h2:
+    console:
+      enabled: false
+
+  # Security
+  security:
+    user:
+      name: ${ADMIN_USERNAME:admin}
+      password: ${ADMIN_PASSWORD:changeme}
+
+# Logging
+logging:
+  level:
+    com.example.resqtap: INFO
+    org.springframework.web: WARN
+    org.hibernate: WARN
+  file:
+    name: /var/log/resqtap/application.log
+
+# Actuator endpoints for monitoring
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: when_authorized

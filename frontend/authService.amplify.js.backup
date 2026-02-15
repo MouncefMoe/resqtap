@@ -1,0 +1,70 @@
+import { 
+    signUp, 
+    confirmSignUp, 
+    signIn, 
+    signOut, 
+    getCurrentUser, 
+    fetchAuthSession,
+    resetPassword,
+    confirmResetPassword,
+    resendSignUpCode
+} from 'aws-amplify/auth';
+
+export async function register(username, password, email) {
+    return await signUp({
+        username,
+        password,
+        options: {
+            userAttributes: { email }
+        }
+    });
+}
+
+export async function confirmRegister(username, code) {
+    return await confirmSignUp({ username, confirmationCode: code });
+}
+
+export async function login(username, password) {
+    return await signIn({ username, password });
+}
+
+export async function logout() {
+    return await signOut();
+}
+
+export async function getAuthUser() {
+    try {
+        const { username, userId, signInDetails } = await getCurrentUser();
+        return { username, userId, email: signInDetails?.loginId };
+    } catch (error) {
+        return null;
+    }
+}
+
+export async function isLoggedIn() {
+    try {
+        await getCurrentUser();
+        return true;
+    } catch {
+        return false;
+    }
+}
+
+export async function handleRedirect() {
+    // No-op for custom UI flow, but required by settings.js import
+}
+
+// Export object to match script.js imports
+export const AuthService = {
+    register: (username, email, password) => register(username, password, email), // Fix param order for script.js
+    confirmRegistration: confirmRegister,
+    resendConfirmationCode: (username) => resendSignUpCode({ username }),
+    login,
+    logout,
+    getCurrentUser: getAuthUser,
+    isLoggedIn,
+    forgotPassword: (username) => resetPassword({ username }),
+    confirmForgotPassword: (username, code, newPassword) => confirmResetPassword({ username, confirmationCode: code, newPassword })
+};
+
+export { resetPassword, confirmResetPassword };

@@ -1,0 +1,46 @@
+{
+  "name": "resqtap-mobile",
+  "version": "1.0.0",
+  "description": "ResqTap Emergency Response Mobile App",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step - using Spring Boot static files'",
+    "cap:init": "npx cap init ResqTap com.resqtap.emergency --web-dir ../src/main/resources/static",
+    "cap:add:android": "npx cap add android",
+    "cap:add:ios": "npx cap add ios",
+    "cap:sync": "npx cap sync",
+    "cap:open:android": "npx cap open android",
+    "cap:open:ios": "npx cap open ios",
+    "cap:run:android": "npx cap run android",
+    "cap:run:ios": "npx cap run ios",
+    "android": "npm run cap:sync && npm run cap:open:android",
+    "ios": "npm run cap:sync && npm run cap:open:ios"
+  },
+  "dependencies": {
+    "@capacitor-community/text-to-speech": "^5.0.0",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/app": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/haptics": "^6.0.0",
+    "@capacitor/ios": "^6.0.0",
+    "@capacitor/keyboard": "^6.0.0",
+    "@capacitor/local-notifications": "^6.0.0",
+    "@capacitor/preferences": "^6.0.4",
+    "@capacitor/splash-screen": "^6.0.0",
+    "@capacitor/status-bar": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.0.0"
+  },
+  "keywords": [
+    "emergency",
+    "first-aid",
+    "cpr",
+    "lifeguard",
+    "mobile",
+    "capacitor"
+  ],
+  "author": "ResqTap Team",
+  "license": "MIT"
+}

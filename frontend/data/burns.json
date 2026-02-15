@@ -1,0 +1,252 @@
+[
+  {
+    "id": "first-degree-burn",
+    "name": "First Degree Burn",
+    "category": "burns",
+    "severity": "LOW",
+    "description": "Superficial burn affecting only outer skin layer",
+    "image": "/images/burns/first-degree-burn.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Remove from heat source immediately",
+        "image": "/images/burns/first_remove.png"
+      },
+      {
+        "order": 2,
+        "text": "Cool burn under cool running water for 10-20 minutes",
+        "image": "/images/burns/first_cool.png"
+      },
+      {
+        "order": 3,
+        "text": "Do not use ice or very cold water",
+        "image": "/images/burns/first_noice.png"
+      },
+      {
+        "order": 4,
+        "text": "Apply aloe vera or burn cream",
+        "image": "/images/burns/first_aloe.png"
+      },
+      {
+        "order": 5,
+        "text": "Cover loosely with sterile bandage",
+        "image": "/images/burns/first_cover.png"
+      },
+      {
+        "order": 6,
+        "text": "Take over-the-counter pain reliever if needed",
+        "image": "/images/burns/first_pain.png"
+      }
+    ]
+  },
+  {
+    "id": "second-degree-burn",
+    "name": "Second Degree Burn",
+    "category": "burns",
+    "severity": "MEDIUM",
+    "description": "Partial thickness burn with blistering",
+    "image": "/images/burns/second-degree-burn.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Remove from heat source and remove clothing near burn",
+        "image": "/images/burns/second_remove.png"
+      },
+      {
+        "order": 2,
+        "text": "Cool burn under cool running water for 15-20 minutes",
+        "image": "/images/burns/second_cool.png"
+      },
+      {
+        "order": 3,
+        "text": "Do not break blisters",
+        "image": "/images/burns/second_blisters.png"
+      },
+      {
+        "order": 4,
+        "text": "Cover with non-stick sterile bandage",
+        "image": "/images/burns/second_cover.png"
+      },
+      {
+        "order": 5,
+        "text": "Seek medical attention for large burns or burns on face/hands",
+        "image": "/images/burns/second_medical.png"
+      },
+      {
+        "order": 6,
+        "text": "Watch for signs of infection",
+        "image": "/images/burns/second_infection.png"
+      }
+    ]
+  },
+  {
+    "id": "third-degree-burn",
+    "name": "Third Degree Burn",
+    "category": "burns",
+    "severity": "CRITICAL",
+    "description": "Full thickness burn requiring emergency care",
+    "image": "/images/burns/third-degree-burn.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 immediately",
+        "image": "/images/burns/third_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Do not remove burned clothing stuck to skin",
+        "image": "/images/burns/third_clothing.png"
+      },
+      {
+        "order": 3,
+        "text": "Cover burn loosely with clean cloth",
+        "image": "/images/burns/third_cover.png"
+      },
+      {
+        "order": 4,
+        "text": "Elevate burned area above heart if possible",
+        "image": "/images/burns/third_elevate.png"
+      },
+      {
+        "order": 5,
+        "text": "Monitor for shock - keep person warm",
+        "image": "/images/burns/third_shock.png"
+      },
+      {
+        "order": 6,
+        "text": "Do not apply creams, butter, or ointments",
+        "image": "/images/burns/third_nocream.png"
+      }
+    ]
+  },
+  {
+    "id": "chemical-burn",
+    "name": "Chemical Burn",
+    "category": "burns",
+    "severity": "HIGH",
+    "description": "Burn caused by corrosive chemicals",
+    "image": "/images/burns/chemical-burn.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Protect yourself first: Wear gloves if available. Do not touch the chemical with bare hands. Ensure area is ventilated if fumes are present",
+        "image": "/images/burns/chemical_protect.png"
+      },
+      {
+        "order": 2,
+        "text": "Remove contaminated clothing: Cut away clothing if stuck to skin. Remove jewelry, watches, belts that may trap chemical. Work quickly but carefully",
+        "image": "/images/burns/chemical_remove.png"
+      },
+      {
+        "order": 3,
+        "text": "Flush immediately with water: Use large amounts of cool running water for at least 20 minutes. For eyes, hold lids open and flush from inner corner outward",
+        "image": "/images/burns/chemical_flush.png"
+      },
+      {
+        "order": 4,
+        "text": "Do NOT neutralize: Never apply substances to counteract the chemical (like vinegar on alkali burns). This causes a heat reaction that worsens the injury",
+        "image": "/images/burns/chemical_neutral.png"
+      },
+      {
+        "order": 5,
+        "text": "Call Poison Control: 1-800-222-1222 (US). Have product container ready to identify the chemical. They provide specific treatment guidance",
+        "image": "/images/burns/chemical_call.png"
+      },
+      {
+        "order": 6,
+        "text": "Continue flushing while calling: Do not stop water irrigation to make phone calls. Continue for minimum 20 minutes or until EMS arrives",
+        "image": "/images/burns/chemical_continue.png"
+      },
+      {
+        "order": 7,
+        "text": "Cover loosely: After thorough flushing, cover burn with clean, dry, loose bandage or cloth. Do not apply ointments, creams, or butter",
+        "image": "/images/burns/chemical_cover.png"
+      },
+      {
+        "order": 8,
+        "text": "Save product information: Keep the chemical container, label, or SDS (Safety Data Sheet) for emergency responders. This guides hospital treatment",
+        "image": "/images/burns/chemical_save.png"
+      }
+    ]
+  },
+  {
+    "id": "electrical-burn",
+    "name": "Electrical Burn",
+    "category": "burns",
+    "severity": "CRITICAL",
+    "description": "Burn caused by electrical current",
+    "image": "/images/burns/electrical-burn.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Do not touch person if still in contact with electrical source",
+        "image": "/images/burns/electrical_notouch.png"
+      },
+      {
+        "order": 2,
+        "text": "Turn off power source or separate person using non-conductive object",
+        "image": "/images/burns/electrical_separate.png"
+      },
+      {
+        "order": 3,
+        "text": "Call 911 immediately",
+        "image": "/images/burns/electrical_call.png"
+      },
+      {
+        "order": 4,
+        "text": "Check for breathing and pulse - begin CPR if needed",
+        "image": "/images/burns/electrical_cpr.png"
+      },
+      {
+        "order": 5,
+        "text": "Cover burns with sterile bandage",
+        "image": "/images/burns/electrical_cover.png"
+      },
+      {
+        "order": 6,
+        "text": "Monitor for cardiac problems even if person seems fine",
+        "image": "/images/burns/electrical_monitor.png"
+      }
+    ]
+  },
+  {
+    "id": "sunburn",
+    "name": "Sunburn",
+    "category": "burns",
+    "severity": "LOW",
+    "description": "Radiation burn from sun exposure",
+    "image": "/images/burns/sunburn.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Get out of the sun immediately",
+        "image": "/images/burns/sun_shade.png"
+      },
+      {
+        "order": 2,
+        "text": "Cool skin with damp cloths or cool bath",
+        "image": "/images/burns/sun_cool.png"
+      },
+      {
+        "order": 3,
+        "text": "Apply aloe vera gel or moisturizer",
+        "image": "/images/burns/sun_aloe.png"
+      },
+      {
+        "order": 4,
+        "text": "Take over-the-counter pain reliever",
+        "image": "/images/burns/sun_pain.png"
+      },
+      {
+        "order": 5,
+        "text": "Drink plenty of water to prevent dehydration",
+        "image": "/images/burns/sun_hydrate.png"
+      },
+      {
+        "order": 6,
+        "text": "Seek medical help if blistering, fever, or chills occur",
+        "image": "/images/burns/sun_medical.png"
+      }
+    ]
+  }
+]

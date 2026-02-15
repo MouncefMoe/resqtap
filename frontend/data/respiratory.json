@@ -1,0 +1,92 @@
+[
+  {
+    "id": "asthma-attack",
+    "name": "Asthma Attack",
+    "category": "respiratory",
+    "severity": "HIGH",
+    "description": "Acute asthma episode with breathing difficulty",
+    "image": "/images/respiratory/asthma-attack.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Recognize severe asthma attack: Extreme difficulty breathing, inability to speak full sentences, lips or fingernails turning blue, chest retracting with each breath",
+        "image": "/images/respiratory/asthma_recognize.png"
+      },
+      {
+        "order": 2,
+        "text": "Help person sit upright: Sitting up or leaning slightly forward with hands on knees ('tripod position') makes breathing easier. Never lay them down",
+        "image": "/images/respiratory/asthma_sit.png"
+      },
+      {
+        "order": 3,
+        "text": "Stay calm and reassure: Panic worsens asthma. Speak calmly, make eye contact, coach slow breathing. Your calmness helps them stay calm",
+        "image": "/images/respiratory/asthma_calm.png"
+      },
+      {
+        "order": 4,
+        "text": "Locate rescue inhaler (blue): Help find their quick-relief inhaler (albuterol/salbutamol). Most asthmatics carry one. Check pockets, purse, backpack",
+        "image": "/images/respiratory/asthma_find.png"
+      },
+      {
+        "order": 5,
+        "text": "Assist with inhaler use: Shake inhaler. Have them breathe out. Put mouthpiece in mouth, press canister while breathing in slowly. Hold breath 10 seconds if able",
+        "image": "/images/respiratory/asthma_inhaler.png"
+      },
+      {
+        "order": 6,
+        "text": "Give 4 puffs with 4 breaths between: Allow 4 normal breaths between each puff. This allows medication to reach deep into lungs. Watch for improvement",
+        "image": "/images/respiratory/asthma_puffs.png"
+      },
+      {
+        "order": 7,
+        "text": "Call 911 if: No improvement after 4 puffs, person cannot speak, lips/nails are blue, they are exhausted from breathing effort, or they indicate this is worse than usual",
+        "image": "/images/respiratory/asthma_call.png"
+      },
+      {
+        "order": 8,
+        "text": "Continue treatment until help arrives: Can repeat 4 puffs every 4 minutes if needed. Keep person upright and calm. Monitor breathing continuously",
+        "image": "/images/respiratory/asthma_repeat.png"
+      }
+    ]
+  },
+  {
+    "id": "hyperventilation",
+    "name": "Hyperventilation",
+    "category": "respiratory",
+    "severity": "MEDIUM",
+    "description": "Rapid breathing often triggered by anxiety",
+    "image": "/images/respiratory/hyperventilation.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Stay calm and help person relax",
+        "image": "/images/respiratory/hyper_calm.png"
+      },
+      {
+        "order": 2,
+        "text": "Have person breathe slowly through pursed lips",
+        "image": "/images/respiratory/hyper_pursed.png"
+      },
+      {
+        "order": 3,
+        "text": "Count breaths: inhale 4 counts, exhale 4 counts",
+        "image": "/images/respiratory/hyper_count.png"
+      },
+      {
+        "order": 4,
+        "text": "Reassure person that they are not having a heart attack",
+        "image": "/images/respiratory/hyper_reassure.png"
+      },
+      {
+        "order": 5,
+        "text": "Avoid breathing into a bag unless directed by medical professional",
+        "image": "/images/respiratory/hyper_nobag.png"
+      },
+      {
+        "order": 6,
+        "text": "Seek medical help if person becomes more distressed",
+        "image": "/images/respiratory/hyper_medical.png"
+      }
+    ]
+  }
+]

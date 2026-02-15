@@ -1,0 +1,252 @@
+[
+  {
+    "id": "cpr-adult",
+    "name": "CPR Adult",
+    "category": "cardiac",
+    "severity": "CRITICAL",
+    "description": "Cardiopulmonary resuscitation for adults (18+ years)",
+    "image": "/images/cardiac/cpr-adult.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Check for responsiveness by tapping shoulders and shouting",
+        "image": "/images/cpr/adult/check_response.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 or have someone call immediately",
+        "image": "/images/cpr/adult/call_911.png"
+      },
+      {
+        "order": 3,
+        "text": "Place heel of hand on center of chest between nipples",
+        "image": "/images/cpr/adult/hand_position.png"
+      },
+      {
+        "order": 4,
+        "text": "Push hard and fast: 2 inches deep, 100-120 compressions per minute",
+        "image": "/images/cpr/adult/compressions.png"
+      },
+      {
+        "order": 5,
+        "text": "Give 2 rescue breaths after every 30 compressions",
+        "image": "/images/cpr/adult/rescue_breaths.png"
+      },
+      {
+        "order": 6,
+        "text": "Continue until help arrives or person starts breathing",
+        "image": "/images/cpr/adult/continue_cpr.png"
+      }
+    ]
+  },
+  {
+    "id": "cpr-child",
+    "name": "CPR Child",
+    "category": "cardiac",
+    "severity": "CRITICAL",
+    "description": "Cardiopulmonary resuscitation for children (1-12 years)",
+    "image": "/images/cardiac/cpr-child.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Check for responsiveness by tapping and calling loudly",
+        "image": "/images/cpr/child/check_response.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 after 2 minutes of CPR if alone",
+        "image": "/images/cpr/child/call_911.png"
+      },
+      {
+        "order": 3,
+        "text": "Use one or two hands for chest compressions",
+        "image": "/images/cpr/child/hand_position.png"
+      },
+      {
+        "order": 4,
+        "text": "Push about 2 inches deep at 100-120 compressions per minute",
+        "image": "/images/cpr/child/compressions.png"
+      },
+      {
+        "order": 5,
+        "text": "Give 2 rescue breaths after every 30 compressions",
+        "image": "/images/cpr/child/rescue_breaths.png"
+      },
+      {
+        "order": 6,
+        "text": "Continue until help arrives or child responds",
+        "image": "/images/cpr/child/continue_cpr.png"
+      }
+    ]
+  },
+  {
+    "id": "cpr-infant",
+    "name": "CPR Infant",
+    "category": "cardiac",
+    "severity": "CRITICAL",
+    "description": "Cardiopulmonary resuscitation for infants (under 1 year)",
+    "image": "/images/cardiac/cpr-infant.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tap the bottom of feet and call the infant's name",
+        "image": "/images/cpr/infant/check_response.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 after 2 minutes of CPR if alone",
+        "image": "/images/cpr/infant/call_911.png"
+      },
+      {
+        "order": 3,
+        "text": "Use two fingers on center of chest just below nipple line",
+        "image": "/images/cpr/infant/finger_position.png"
+      },
+      {
+        "order": 4,
+        "text": "Push about 1.5 inches deep at 100-120 compressions per minute",
+        "image": "/images/cpr/infant/compressions.png"
+      },
+      {
+        "order": 5,
+        "text": "Give 2 gentle rescue breaths covering mouth and nose",
+        "image": "/images/cpr/infant/rescue_breaths.png"
+      },
+      {
+        "order": 6,
+        "text": "Continue until help arrives or infant responds",
+        "image": "/images/cpr/infant/continue_cpr.png"
+      }
+    ]
+  },
+  {
+    "id": "heart-attack",
+    "name": "Heart Attack",
+    "category": "cardiac",
+    "severity": "CRITICAL",
+    "description": "Myocardial infarction requiring immediate medical attention",
+    "image": "/images/cardiac/heart-attack.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Recognize the warning signs: Chest pain or pressure (squeezing, fullness), pain radiating to arm/jaw/back/neck, shortness of breath, cold sweat, nausea, lightheadedness",
+        "image": "/images/cardiac/heart_attack_recognize.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 immediately: State 'possible heart attack.' Every minute counts - heart muscle is dying. Do not drive the person yourself unless no other option",
+        "image": "/images/cardiac/heart_attack_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Have person stop all activity: Help them sit or lie in comfortable position, typically semi-reclined. Staying still reduces heart's workload",
+        "image": "/images/cardiac/heart_attack_rest.png"
+      },
+      {
+        "order": 4,
+        "text": "Give aspirin if available: Ask 'Are you allergic to aspirin?' If not, give one regular aspirin (325mg) or four baby aspirin (81mg each) to CHEW, not swallow whole",
+        "image": "/images/cardiac/heart_attack_aspirin.png"
+      },
+      {
+        "order": 5,
+        "text": "Loosen restrictive clothing: Unbutton shirt, loosen belt and tie. This helps with breathing and reduces constriction on chest",
+        "image": "/images/cardiac/heart_attack_loosen.png"
+      },
+      {
+        "order": 6,
+        "text": "Help with prescribed medications: If person has nitroglycerin, help them take it as prescribed. They may take up to 3 doses, 5 minutes apart",
+        "image": "/images/cardiac/heart_attack_nitro.png"
+      },
+      {
+        "order": 7,
+        "text": "Monitor and prepare for CPR: Watch for loss of consciousness or stoppage of breathing. If person becomes unresponsive and isn't breathing normally, begin CPR immediately",
+        "image": "/images/cardiac/heart_attack_monitor.png"
+      },
+      {
+        "order": 8,
+        "text": "Keep person calm: Anxiety increases heart's oxygen demand. Reassure them help is coming. Stay with them until EMS arrives and takes over",
+        "image": "/images/cardiac/heart_attack_calm.png"
+      }
+    ]
+  },
+  {
+    "id": "cardiac-arrest",
+    "name": "Cardiac Arrest",
+    "category": "cardiac",
+    "severity": "CRITICAL",
+    "description": "Heart has stopped beating - immediate CPR required",
+    "image": "/images/cardiac/cardiac-arrest.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 immediately",
+        "image": "/images/cardiac/arrest_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Begin CPR immediately with chest compressions",
+        "image": "/images/cardiac/arrest_cpr.png"
+      },
+      {
+        "order": 3,
+        "text": "Send someone to get an AED if available",
+        "image": "/images/cardiac/arrest_aed.png"
+      },
+      {
+        "order": 4,
+        "text": "Apply AED as soon as available and follow prompts",
+        "image": "/images/cardiac/arrest_apply_aed.png"
+      },
+      {
+        "order": 5,
+        "text": "Continue CPR between AED shocks",
+        "image": "/images/cardiac/arrest_continue.png"
+      },
+      {
+        "order": 6,
+        "text": "Do not stop until emergency services take over",
+        "image": "/images/cardiac/arrest_persist.png"
+      }
+    ]
+  },
+  {
+    "id": "aed-usage",
+    "name": "AED Usage",
+    "category": "cardiac",
+    "severity": "CRITICAL",
+    "description": "Automated External Defibrillator operation guide",
+    "image": "/images/cardiac/aed-usage.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Turn on the AED and follow voice prompts",
+        "image": "/images/cardiac/aed_turnon.png"
+      },
+      {
+        "order": 2,
+        "text": "Expose the chest and wipe dry if wet",
+        "image": "/images/cardiac/aed_expose.png"
+      },
+      {
+        "order": 3,
+        "text": "Attach pads to bare chest as shown on pads",
+        "image": "/images/cardiac/aed_pads.png"
+      },
+      {
+        "order": 4,
+        "text": "Ensure no one is touching the person during analysis",
+        "image": "/images/cardiac/aed_clear.png"
+      },
+      {
+        "order": 5,
+        "text": "Press shock button if advised by AED",
+        "image": "/images/cardiac/aed_shock.png"
+      },
+      {
+        "order": 6,
+        "text": "Immediately resume CPR after shock",
+        "image": "/images/cardiac/aed_resume.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "id": "poisoning-ingested",
+    "name": "Poisoning Ingested",
+    "category": "poisoning",
+    "severity": "CRITICAL",
+    "description": "Toxic substance swallowed",
+    "image": "/images/poisoning/poisoning-ingested.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Stay calm and assess: Determine what was swallowed, how much, and when. Look for containers, pills, or plant material nearby",
+        "image": "/images/poison/ingest_assess.png"
+      },
+      {
+        "order": 2,
+        "text": "Call Poison Control immediately: 1-800-222-1222 (US). Available 24/7. They will guide your specific situation. Have product container ready",
+        "image": "/images/poison/ingest_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Do NOT induce vomiting: Unless specifically told by Poison Control. Some substances cause more damage coming back up (acids, alkalis, petroleum)",
+        "image": "/images/poison/ingest_novomit.png"
+      },
+      {
+        "order": 4,
+        "text": "Do NOT give anything by mouth: No water, milk, or activated charcoal unless directed by Poison Control. Wrong treatment can worsen situation",
+        "image": "/images/poison/ingest_nodrink.png"
+      },
+      {
+        "order": 5,
+        "text": "Call 911 if: Person is unconscious, having seizures, difficulty breathing, or Poison Control advises immediate emergency care",
+        "image": "/images/poison/ingest_911.png"
+      },
+      {
+        "order": 6,
+        "text": "Position unconscious victim: Place in recovery position (on side) to prevent choking if vomiting occurs. Monitor breathing constantly",
+        "image": "/images/poison/ingest_position.png"
+      },
+      {
+        "order": 7,
+        "text": "Save evidence: Keep container, pills, vomit, or any substance for identification. This helps medical staff provide correct treatment",
+        "image": "/images/poison/ingest_save.png"
+      },
+      {
+        "order": 8,
+        "text": "Monitor vital signs: Watch breathing rate, consciousness level, skin color. Note any changes to report to emergency responders",
+        "image": "/images/poison/ingest_monitor.png"
+      }
+    ]
+  },
+  {
+    "id": "poisoning-inhaled",
+    "name": "Poisoning Inhaled",
+    "category": "poisoning",
+    "severity": "CRITICAL",
+    "description": "Toxic gas or fumes inhaled",
+    "image": "/images/poisoning/poisoning-inhaled.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Move person to fresh air immediately",
+        "image": "/images/poison/inhale_fresh.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911",
+        "image": "/images/poison/inhale_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Open windows and doors if safe to do so",
+        "image": "/images/poison/inhale_ventilate.png"
+      },
+      {
+        "order": 4,
+        "text": "Begin CPR if person is not breathing",
+        "image": "/images/poison/inhale_cpr.png"
+      },
+      {
+        "order": 5,
+        "text": "Identify the source of fumes if known",
+        "image": "/images/poison/inhale_identify.png"
+      },
+      {
+        "order": 6,
+        "text": "Do not re-enter contaminated area",
+        "image": "/images/poison/inhale_noreenter.png"
+      }
+    ]
+  },
+  {
+    "id": "carbon-monoxide-poisoning",
+    "name": "Carbon Monoxide Poisoning",
+    "category": "poisoning",
+    "severity": "CRITICAL",
+    "description": "Exposure to carbon monoxide gas",
+    "image": "/images/poisoning/carbon-monoxide-poisoning.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Get everyone out of the building immediately",
+        "image": "/images/poison/co_evacuate.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 from outside",
+        "image": "/images/poison/co_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Open windows if safe to do so",
+        "image": "/images/poison/co_ventilate.png"
+      },
+      {
+        "order": 4,
+        "text": "Move to fresh air and stay outside",
+        "image": "/images/poison/co_fresh.png"
+      },
+      {
+        "order": 5,
+        "text": "Begin CPR if person is not breathing",
+        "image": "/images/poison/co_cpr.png"
+      },
+      {
+        "order": 6,
+        "text": "Do not return inside until cleared by fire department",
+        "image": "/images/poison/co_noreenter.png"
+      }
+    ]
+  },
+  {
+    "id": "drug-overdose",
+    "name": "Drug Overdose",
+    "category": "poisoning",
+    "severity": "CRITICAL",
+    "description": "Excessive drug consumption requiring emergency care",
+    "image": "/images/poisoning/drug-overdose.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 immediately",
+        "image": "/images/poison/overdose_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Administer Narcan (naloxone) if opioid overdose suspected",
+        "image": "/images/poison/overdose_narcan.png"
+      },
+      {
+        "order": 3,
+        "text": "Place in recovery position if unconscious but breathing",
+        "image": "/images/poison/overdose_recovery.png"
+      },
+      {
+        "order": 4,
+        "text": "Begin CPR if not breathing",
+        "image": "/images/poison/overdose_cpr.png"
+      },
+      {
+        "order": 5,
+        "text": "Stay with person until help arrives",
+        "image": "/images/poison/overdose_stay.png"
+      },
+      {
+        "order": 6,
+        "text": "Tell responders what substances were taken",
+        "image": "/images/poison/overdose_inform.png"
+      }
+    ]
+  },
+  {
+    "id": "alcohol-poisoning",
+    "name": "Alcohol Poisoning",
+    "category": "poisoning",
+    "severity": "HIGH",
+    "description": "Dangerous level of alcohol consumption",
+    "image": "/images/poisoning/alcohol-poisoning.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 if person is unconscious or has irregular breathing",
+        "image": "/images/poison/alcohol_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Keep person sitting up if conscious",
+        "image": "/images/poison/alcohol_situp.png"
+      },
+      {
+        "order": 3,
+        "text": "Place in recovery position if unconscious",
+        "image": "/images/poison/alcohol_recovery.png"
+      },
+      {
+        "order": 4,
+        "text": "Do not leave person alone",
+        "image": "/images/poison/alcohol_stay.png"
+      },
+      {
+        "order": 5,
+        "text": "Do not give coffee or cold shower",
+        "image": "/images/poison/alcohol_myths.png"
+      },
+      {
+        "order": 6,
+        "text": "Monitor breathing continuously",
+        "image": "/images/poison/alcohol_monitor.png"
+      }
+    ]
+  },
+  {
+    "id": "food-poisoning",
+    "name": "Food Poisoning",
+    "category": "poisoning",
+    "severity": "MEDIUM",
+    "description": "Illness from contaminated food",
+    "image": "/images/poisoning/food-poisoning.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rest and avoid solid foods initially",
+        "image": "/images/poison/food_rest.png"
+      },
+      {
+        "order": 2,
+        "text": "Drink clear fluids to prevent dehydration",
+        "image": "/images/poison/food_fluids.png"
+      },
+      {
+        "order": 3,
+        "text": "Avoid dairy, caffeine, and alcohol",
+        "image": "/images/poison/food_avoid.png"
+      },
+      {
+        "order": 4,
+        "text": "Start with bland foods when ready (BRAT diet)",
+        "image": "/images/poison/food_brat.png"
+      },
+      {
+        "order": 5,
+        "text": "Seek medical help if bloody stool, high fever, or severe dehydration",
+        "image": "/images/poison/food_medical.png"
+      },
+      {
+        "order": 6,
+        "text": "Save sample of suspected food if possible",
+        "image": "/images/poison/food_save.png"
+      }
+    ]
+  }
+]

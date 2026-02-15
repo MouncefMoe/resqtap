@@ -1,0 +1,202 @@
+[
+  {
+    "id": "snake-bite",
+    "name": "Snake Bite",
+    "category": "bites",
+    "severity": "HIGH",
+    "description": "Venomous or unknown snake bite",
+    "image": "/images/bites/snake-bite.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 immediately",
+        "image": "/images/bites/snake_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Keep person calm and still",
+        "image": "/images/bites/snake_calm.png"
+      },
+      {
+        "order": 3,
+        "text": "Remove jewelry near bite before swelling",
+        "image": "/images/bites/snake_jewelry.png"
+      },
+      {
+        "order": 4,
+        "text": "Keep bite below heart level",
+        "image": "/images/bites/snake_position.png"
+      },
+      {
+        "order": 5,
+        "text": "Do not cut, suck, or apply ice to bite",
+        "image": "/images/bites/snake_dont.png"
+      },
+      {
+        "order": 6,
+        "text": "Try to remember snake's appearance for identification",
+        "image": "/images/bites/snake_identify.png"
+      }
+    ]
+  },
+  {
+    "id": "spider-bite",
+    "name": "Spider Bite",
+    "category": "bites",
+    "severity": "MEDIUM",
+    "description": "Venomous spider bite",
+    "image": "/images/bites/spider-bite.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Clean bite area with soap and water",
+        "image": "/images/bites/spider_clean.png"
+      },
+      {
+        "order": 2,
+        "text": "Apply ice wrapped in cloth",
+        "image": "/images/bites/spider_ice.png"
+      },
+      {
+        "order": 3,
+        "text": "Elevate the affected limb",
+        "image": "/images/bites/spider_elevate.png"
+      },
+      {
+        "order": 4,
+        "text": "Take photo of spider if safely possible",
+        "image": "/images/bites/spider_photo.png"
+      },
+      {
+        "order": 5,
+        "text": "Monitor for severe symptoms: muscle cramps, sweating, difficulty breathing",
+        "image": "/images/bites/spider_monitor.png"
+      },
+      {
+        "order": 6,
+        "text": "Seek medical attention if symptoms worsen",
+        "image": "/images/bites/spider_medical.png"
+      }
+    ]
+  },
+  {
+    "id": "animal-bite",
+    "name": "Animal Bite",
+    "category": "bites",
+    "severity": "MEDIUM",
+    "description": "Dog, cat, or other animal bite",
+    "image": "/images/bites/animal-bite.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Control bleeding with direct pressure",
+        "image": "/images/bites/animal_pressure.png"
+      },
+      {
+        "order": 2,
+        "text": "Wash wound thoroughly with soap and water for 5 minutes",
+        "image": "/images/bites/animal_wash.png"
+      },
+      {
+        "order": 3,
+        "text": "Apply antibiotic ointment and sterile bandage",
+        "image": "/images/bites/animal_bandage.png"
+      },
+      {
+        "order": 4,
+        "text": "Get information about the animal if possible",
+        "image": "/images/bites/animal_info.png"
+      },
+      {
+        "order": 5,
+        "text": "Seek medical attention - may need tetanus shot or rabies evaluation",
+        "image": "/images/bites/animal_medical.png"
+      },
+      {
+        "order": 6,
+        "text": "Report bite to local animal control",
+        "image": "/images/bites/animal_report.png"
+      }
+    ]
+  },
+  {
+    "id": "tick-bite",
+    "name": "Tick Bite",
+    "category": "bites",
+    "severity": "LOW",
+    "description": "Tick attachment requiring removal",
+    "image": "/images/bites/tick-bite.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Use fine-tipped tweezers to grasp tick close to skin",
+        "image": "/images/bites/tick_tweezers.png"
+      },
+      {
+        "order": 2,
+        "text": "Pull upward with steady, even pressure",
+        "image": "/images/bites/tick_pull.png"
+      },
+      {
+        "order": 3,
+        "text": "Do not twist or jerk the tick",
+        "image": "/images/bites/tick_notwist.png"
+      },
+      {
+        "order": 4,
+        "text": "Clean area with rubbing alcohol or soap and water",
+        "image": "/images/bites/tick_clean.png"
+      },
+      {
+        "order": 5,
+        "text": "Save tick in container for identification",
+        "image": "/images/bites/tick_save.png"
+      },
+      {
+        "order": 6,
+        "text": "Monitor for rash or fever for 30 days",
+        "image": "/images/bites/tick_monitor.png"
+      }
+    ]
+  },
+  {
+    "id": "jellyfish-sting",
+    "name": "Jellyfish Sting",
+    "category": "bites",
+    "severity": "MEDIUM",
+    "description": "Marine creature sting",
+    "image": "/images/bites/jellyfish-sting.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Get out of water immediately",
+        "image": "/images/bites/jelly_exit.png"
+      },
+      {
+        "order": 2,
+        "text": "Rinse with vinegar for 30 seconds",
+        "image": "/images/bites/jelly_vinegar.png"
+      },
+      {
+        "order": 3,
+        "text": "Remove tentacles with tweezers (not bare hands)",
+        "image": "/images/bites/jelly_remove.png"
+      },
+      {
+        "order": 4,
+        "text": "Immerse in hot water (110-113°F) for 20-45 minutes",
+        "image": "/images/bites/jelly_hot.png"
+      },
+      {
+        "order": 5,
+        "text": "Take pain medication if needed",
+        "image": "/images/bites/jelly_pain.png"
+      },
+      {
+        "order": 6,
+        "text": "Seek medical help for severe reactions",
+        "image": "/images/bites/jelly_medical.png"
+      }
+    ]
+  }
+]

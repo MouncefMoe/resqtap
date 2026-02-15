@@ -1,0 +1,59 @@
+package com.example.resqtap.controller;
+
+import com.example.resqtap.dto.EmergencyResponseDto;
+import com.example.resqtap.mapper.EmergencyMapper;
+import com.example.resqtap.model.Emergency;
+import com.example.resqtap.repository.EmergencyRepository;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
+import java.util.Optional;
+
+@RestController
+@RequestMapping("/api/emergencies")
+public class EmergencyController {
+
+    private final EmergencyRepository emergencyRepository;
+    private final EmergencyMapper emergencyMapper;
+
+    public EmergencyController(EmergencyRepository emergencyRepository, EmergencyMapper emergencyMapper) {
+        this.emergencyRepository = emergencyRepository;
+        this.emergencyMapper = emergencyMapper;
+    }
+
+    @GetMapping
+    public ResponseEntity<List<EmergencyResponseDto>> getAllEmergencies() {
+        List<Emergency> emergencies = emergencyRepository.findAll();
+        return ResponseEntity.ok(emergencyMapper.toDtoList(emergencies));
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<EmergencyResponseDto> getEmergencyById(@PathVariable Long id) {
+        Optional<Emergency> emergencyOptional = emergencyRepository.findById(id);
+        return emergencyOptional
+                .map(emergency -> ResponseEntity.ok(emergencyMapper.toDto(emergency)))
+                .orElseGet(() -> ResponseEntity.notFound().build());
+    }
+
+    @GetMapping("/category/{category}")
+    public ResponseEntity<List<EmergencyResponseDto>> getEmergenciesByCategory(@PathVariable String category) {
+        List<Emergency> emergencies = emergencyRepository.findByCategory(category);
+        return ResponseEntity.ok(emergencyMapper.toDtoList(emergencies));
+    }
+
+    @GetMapping("/severity/{severity}")
+    public ResponseEntity<List<EmergencyResponseDto>> getEmergenciesBySeverity(@PathVariable String severity) {
+        try {
+            Emergency.Severity severityEnum = Emergency.Severity.valueOf(severity.toUpperCase());
+            List<Emergency> emergencies = emergencyRepository.findBySeverity(severityEnum);
+            return ResponseEntity.ok(emergencyMapper.toDtoList(emergencies));
+        } catch (IllegalArgumentException e) {
+            // Handle invalid severity string
+            return ResponseEntity.badRequest().build();
+        }
+    }
+}

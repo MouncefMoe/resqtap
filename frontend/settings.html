@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Settings / Account - ResqTap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="settings-shell">
+    <header class="settings-header">
+        <a class="ghost-link" href="index.html">← Home</a>
+        <h1>Account & Settings</h1>
+        <p class="muted">Optional account for sync. CPR & First Aid stay offline.</p>
+    </header>
+
+    <section class="card">
+        <div class="card-title-row">
+            <h2>Status</h2>
+            <span id="statusBadge" class="badge muted-badge">Checking...</span>
+        </div>
+        <p id="statusText" class="muted">Loading...</p>
+        <div class="button-row">
+            <button id="signInBtn" class="nav-btn primary" type="button">Sign in</button>
+            <button id="signOutBtn" class="nav-btn ghost" type="button">Sign out</button>
+        </div>
+    </section>
+
+</div>
+
+<script type="module" src="settings.js"></script>
+</body>
+</html>

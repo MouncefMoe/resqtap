@@ -1,0 +1,222 @@
+[
+  {
+    "id": "heat-stroke",
+    "name": "Heat Stroke",
+    "category": "environmental",
+    "severity": "CRITICAL",
+    "description": "Life-threatening overheating of the body",
+    "image": "/images/environmental/heat-stroke.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Recognize heat stroke: Body temperature above 103°F, hot red dry skin (no sweating), rapid strong pulse, confusion, slurred speech, unconsciousness. This is life-threatening",
+        "image": "/images/environmental/heatstroke_recognize.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 immediately: State 'heat stroke emergency.' This is a medical emergency - brain damage and death can occur within minutes without treatment",
+        "image": "/images/environmental/heatstroke_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Move to cool environment: Get person to shade, air-conditioned building, or cooled vehicle immediately. Remove from sun and heat source",
+        "image": "/images/environmental/heatstroke_move.png"
+      },
+      {
+        "order": 4,
+        "text": "Remove excess clothing: Take off as much clothing as possible. Remove hats, shoes, socks, outer layers. Expose skin for cooling",
+        "image": "/images/environmental/heatstroke_clothing.png"
+      },
+      {
+        "order": 5,
+        "text": "Cool rapidly and aggressively: Immerse in cold water if possible (tub, pool, lake). If not, spray with cool water and fan continuously. Pack ice around neck, armpits, groin",
+        "image": "/images/environmental/heatstroke_cool.png"
+      },
+      {
+        "order": 6,
+        "text": "Focus on high blood-flow areas: Place ice packs or cold wet cloths on neck, armpits, and groin where blood vessels are close to surface. This cools blood faster",
+        "image": "/images/environmental/heatstroke_focus.png"
+      },
+      {
+        "order": 7,
+        "text": "Do NOT give fluids if altered mental status: If person is confused, vomiting, or unconscious, do not give anything by mouth. They may choke",
+        "image": "/images/environmental/heatstroke_nofluids.png"
+      },
+      {
+        "order": 8,
+        "text": "Continue cooling until EMS arrives: Do not stop cooling measures. Monitor breathing and be ready for CPR if person becomes unresponsive and stops breathing",
+        "image": "/images/environmental/heatstroke_continue.png"
+      }
+    ]
+  },
+  {
+    "id": "heat-exhaustion",
+    "name": "Heat Exhaustion",
+    "category": "environmental",
+    "severity": "MEDIUM",
+    "description": "Overheating with profuse sweating and weakness",
+    "image": "/images/environmental/heat-exhaustion.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Move person to cool area and have them lie down",
+        "image": "/images/environmental/exhaustion_move.png"
+      },
+      {
+        "order": 2,
+        "text": "Remove excess clothing",
+        "image": "/images/environmental/exhaustion_clothing.png"
+      },
+      {
+        "order": 3,
+        "text": "Cool with wet cloths or fan",
+        "image": "/images/environmental/exhaustion_cool.png"
+      },
+      {
+        "order": 4,
+        "text": "Give cool water or sports drink if conscious",
+        "image": "/images/environmental/exhaustion_drink.png"
+      },
+      {
+        "order": 5,
+        "text": "Monitor for worsening symptoms",
+        "image": "/images/environmental/exhaustion_monitor.png"
+      },
+      {
+        "order": 6,
+        "text": "Call 911 if symptoms worsen or don't improve in 30 minutes",
+        "image": "/images/environmental/exhaustion_call.png"
+      }
+    ]
+  },
+  {
+    "id": "hypothermia",
+    "name": "Hypothermia",
+    "category": "environmental",
+    "severity": "HIGH",
+    "description": "Dangerously low body temperature",
+    "image": "/images/environmental/hypothermia.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Recognize hypothermia: Shivering (may stop in severe cases), confusion, slurred speech, drowsiness, weak pulse, clumsy movements. Core temperature below 95°F is hypothermia",
+        "image": "/images/environmental/hypo_recognize.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 immediately: Severe hypothermia is life-threatening. Heart can stop if person is rewarmed too quickly or handled roughly",
+        "image": "/images/environmental/hypo_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Move to warm environment: Get person out of cold, wind, and wet conditions. Move gently - rough handling can trigger cardiac arrest in severe hypothermia",
+        "image": "/images/environmental/hypo_shelter.png"
+      },
+      {
+        "order": 4,
+        "text": "Remove wet clothing: Cut off wet clothes if needed. Dry the person gently. Do not rub skin - this can cause cardiac arrhythmias",
+        "image": "/images/environmental/hypo_dry.png"
+      },
+      {
+        "order": 5,
+        "text": "Insulate from ground: Place blankets, sleeping bag, or dry clothing underneath person. Ground contact causes rapid heat loss",
+        "image": "/images/environmental/hypo_insulate.png"
+      },
+      {
+        "order": 6,
+        "text": "Warm the core first: Wrap in blankets focusing on head, neck, chest, and groin. Use your body heat if no other heat source. Add chemical heat packs wrapped in cloth",
+        "image": "/images/environmental/hypo_warm.png"
+      },
+      {
+        "order": 7,
+        "text": "Warm beverages if conscious and alert: Give warm (not hot) sweet drinks if person can swallow safely. No alcohol - it increases heat loss",
+        "image": "/images/environmental/hypo_drink.png"
+      },
+      {
+        "order": 8,
+        "text": "Handle very gently: Do not massage limbs or apply direct heat to arms/legs. Cold blood returning to heart can cause cardiac arrest. Wait for EMS to rewarm",
+        "image": "/images/environmental/hypo_gentle.png"
+      }
+    ]
+  },
+  {
+    "id": "frostbite",
+    "name": "Frostbite",
+    "category": "environmental",
+    "severity": "HIGH",
+    "description": "Tissue freezing from cold exposure",
+    "image": "/images/environmental/frostbite.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Get person to warm area",
+        "image": "/images/environmental/frost_warm.png"
+      },
+      {
+        "order": 2,
+        "text": "Do not rub affected area - this causes more damage",
+        "image": "/images/environmental/frost_norub.png"
+      },
+      {
+        "order": 3,
+        "text": "Remove wet clothing and jewelry",
+        "image": "/images/environmental/frost_remove.png"
+      },
+      {
+        "order": 4,
+        "text": "Immerse in warm (not hot) water 100-104°F for 20-30 minutes",
+        "image": "/images/environmental/frost_immerse.png"
+      },
+      {
+        "order": 5,
+        "text": "Apply loose sterile bandages between fingers/toes",
+        "image": "/images/environmental/frost_bandage.png"
+      },
+      {
+        "order": 6,
+        "text": "Seek medical attention - do not rewarm if refreezing is possible",
+        "image": "/images/environmental/frost_medical.png"
+      }
+    ]
+  },
+  {
+    "id": "lightning-strike",
+    "name": "Lightning Strike",
+    "category": "environmental",
+    "severity": "CRITICAL",
+    "description": "Person struck by lightning",
+    "image": "/images/environmental/lightning-strike.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 immediately",
+        "image": "/images/environmental/lightning_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Move to safe area if lightning continues - it's safe to touch victim",
+        "image": "/images/environmental/lightning_safe.png"
+      },
+      {
+        "order": 3,
+        "text": "Check for breathing and pulse - begin CPR if needed",
+        "image": "/images/environmental/lightning_cpr.png"
+      },
+      {
+        "order": 4,
+        "text": "Check for and treat burns",
+        "image": "/images/environmental/lightning_burns.png"
+      },
+      {
+        "order": 5,
+        "text": "Look for entrance and exit wounds",
+        "image": "/images/environmental/lightning_wounds.png"
+      },
+      {
+        "order": 6,
+        "text": "Monitor for cardiac problems",
+        "image": "/images/environmental/lightning_cardiac.png"
+      }
+    ]
+  }
+]

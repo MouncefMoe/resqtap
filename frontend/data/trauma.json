@@ -1,0 +1,472 @@
+[
+  {
+    "id": "severe-bleeding",
+    "name": "Severe Bleeding",
+    "category": "trauma",
+    "severity": "CRITICAL",
+    "description": "Life-threatening hemorrhage requiring immediate control",
+    "image": "/images/trauma/severe-bleeding.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ensure scene safety: Put on gloves if available. Call 911 immediately - severe bleeding is life-threatening",
+        "image": "/images/trauma/bleeding_safety.png"
+      },
+      {
+        "order": 2,
+        "text": "Expose the wound: Remove or cut away clothing to clearly see injury. Identify the source of bleeding",
+        "image": "/images/trauma/bleeding_expose.png"
+      },
+      {
+        "order": 3,
+        "text": "Apply direct pressure: Use clean cloth, gauze, or clothing. Press firmly with both hands directly on the wound. Do not let go",
+        "image": "/images/trauma/bleeding_pressure.png"
+      },
+      {
+        "order": 4,
+        "text": "Pack deep wounds: For large or deep wounds, stuff clean cloth into wound while maintaining pressure. This is called wound packing",
+        "image": "/images/trauma/bleeding_pack.png"
+      },
+      {
+        "order": 5,
+        "text": "If blood soaks through: Do NOT remove first dressing. Add more layers on top and increase pressure. Removing disturbs clotting",
+        "image": "/images/trauma/bleeding_layers.png"
+      },
+      {
+        "order": 6,
+        "text": "Consider tourniquet for limb wounds: Apply 2-3 inches above wound, not on joint. Tighten until bleeding stops. Note the time applied",
+        "image": "/images/trauma/bleeding_tourniquet.png"
+      },
+      {
+        "order": 7,
+        "text": "Position victim: Keep them lying down. Elevate legs if no spinal injury suspected. Keep them warm with blankets",
+        "image": "/images/trauma/bleeding_position.png"
+      },
+      {
+        "order": 8,
+        "text": "Monitor for shock: Watch for pale skin, rapid pulse, confusion, anxiety. These indicate significant blood loss requiring immediate transport",
+        "image": "/images/trauma/bleeding_shock.png"
+      }
+    ]
+  },
+  {
+    "id": "minor-bleeding",
+    "name": "Minor Bleeding",
+    "category": "trauma",
+    "severity": "LOW",
+    "description": "Small cuts and scrapes requiring basic first aid",
+    "image": "/images/trauma/minor-bleeding.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Wash hands before treating wound",
+        "image": "/images/trauma/minor_hands.png"
+      },
+      {
+        "order": 2,
+        "text": "Clean wound gently with clean water",
+        "image": "/images/trauma/minor_clean.png"
+      },
+      {
+        "order": 3,
+        "text": "Apply gentle pressure with clean cloth",
+        "image": "/images/trauma/minor_pressure.png"
+      },
+      {
+        "order": 4,
+        "text": "Apply antibiotic ointment if available",
+        "image": "/images/trauma/minor_antibiotic.png"
+      },
+      {
+        "order": 5,
+        "text": "Cover with sterile bandage",
+        "image": "/images/trauma/minor_bandage.png"
+      },
+      {
+        "order": 6,
+        "text": "Change bandage daily and watch for infection",
+        "image": "/images/trauma/minor_monitor.png"
+      }
+    ]
+  },
+  {
+    "id": "nosebleed",
+    "name": "Nosebleed",
+    "category": "trauma",
+    "severity": "LOW",
+    "description": "Epistaxis - bleeding from the nose",
+    "image": "/images/trauma/nosebleed.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Have person sit upright and lean slightly forward",
+        "image": "/images/trauma/nose_position.png"
+      },
+      {
+        "order": 2,
+        "text": "Pinch soft part of nose firmly",
+        "image": "/images/trauma/nose_pinch.png"
+      },
+      {
+        "order": 3,
+        "text": "Hold for 10-15 minutes without releasing",
+        "image": "/images/trauma/nose_hold.png"
+      },
+      {
+        "order": 4,
+        "text": "Apply cold compress to bridge of nose",
+        "image": "/images/trauma/nose_cold.png"
+      },
+      {
+        "order": 5,
+        "text": "Seek medical help if bleeding persists beyond 20 minutes",
+        "image": "/images/trauma/nose_help.png"
+      },
+      {
+        "order": 6,
+        "text": "Do not blow nose or pick at clot for several hours",
+        "image": "/images/trauma/nose_avoid.png"
+      }
+    ]
+  },
+  {
+    "id": "broken-bone",
+    "name": "Broken Bone",
+    "category": "trauma",
+    "severity": "HIGH",
+    "description": "Suspected fracture requiring immobilization",
+    "image": "/images/trauma/broken-bone.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Assess the injury: Look for deformity, swelling, bruising, or bone protruding through skin (open fracture). Note if person heard a snap or crack",
+        "image": "/images/trauma/fracture_assess.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 if: Bone is visible, limb is deformed, person cannot move the limb, injury involves head/neck/back/hip/pelvis, or severe pain",
+        "image": "/images/trauma/fracture_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Control any bleeding: If open fracture, apply gentle pressure around (not on) protruding bone. Do not push bone back in",
+        "image": "/images/trauma/fracture_bleeding.png"
+      },
+      {
+        "order": 4,
+        "text": "Immobilize the injury: Splint in position found. Include joint above and below fracture. Use rigid materials (boards, magazines) padded with cloth",
+        "image": "/images/trauma/fracture_splint.png"
+      },
+      {
+        "order": 5,
+        "text": "Apply cold pack: Wrap ice in cloth, apply to injury for 20 minutes. Reduces swelling and pain. Never apply ice directly to skin",
+        "image": "/images/trauma/fracture_ice.png"
+      },
+      {
+        "order": 6,
+        "text": "Elevate if possible: Raise injured limb above heart level only if it does not cause more pain. Helps reduce swelling",
+        "image": "/images/trauma/fracture_elevate.png"
+      },
+      {
+        "order": 7,
+        "text": "Monitor for shock: Watch for pale/clammy skin, rapid breathing, weakness. Keep person lying down and warm",
+        "image": "/images/trauma/fracture_shock.png"
+      },
+      {
+        "order": 8,
+        "text": "Do not: Straighten the limb, allow person to eat/drink (may need surgery), or remove splint once applied",
+        "image": "/images/trauma/fracture_donot.png"
+      }
+    ]
+  },
+  {
+    "id": "sprain",
+    "name": "Sprain",
+    "category": "trauma",
+    "severity": "MEDIUM",
+    "description": "Ligament injury from twisting or stretching",
+    "image": "/images/trauma/sprain.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rest the injured area immediately",
+        "image": "/images/trauma/sprain_rest.png"
+      },
+      {
+        "order": 2,
+        "text": "Apply ice for 20 minutes every 2-3 hours",
+        "image": "/images/trauma/sprain_ice.png"
+      },
+      {
+        "order": 3,
+        "text": "Compress with elastic bandage but not too tight",
+        "image": "/images/trauma/sprain_compress.png"
+      },
+      {
+        "order": 4,
+        "text": "Elevate the injured area above heart level",
+        "image": "/images/trauma/sprain_elevate.png"
+      },
+      {
+        "order": 5,
+        "text": "Take over-the-counter pain medication if needed",
+        "image": "/images/trauma/sprain_pain.png"
+      },
+      {
+        "order": 6,
+        "text": "Seek medical care if unable to bear weight or severe swelling",
+        "image": "/images/trauma/sprain_medical.png"
+      }
+    ]
+  },
+  {
+    "id": "dislocation",
+    "name": "Dislocation",
+    "category": "trauma",
+    "severity": "HIGH",
+    "description": "Joint displacement requiring medical attention",
+    "image": "/images/trauma/dislocation.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Recognize a dislocation: Joint looks visibly deformed or out of place. Intense pain, inability to move joint, rapid swelling",
+        "image": "/images/trauma/dislocate_recognize.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911: Especially for shoulder, hip, knee, or elbow dislocations. All dislocations need professional reduction",
+        "image": "/images/trauma/dislocate_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Do NOT attempt to relocate: Never try to pop the joint back in. This can cause permanent nerve, blood vessel, or tissue damage",
+        "image": "/images/trauma/dislocate_nomove.png"
+      },
+      {
+        "order": 4,
+        "text": "Immobilize in position found: Use slings, pillows, or rolled blankets to support the joint exactly as you find it",
+        "image": "/images/trauma/dislocate_immobilize.png"
+      },
+      {
+        "order": 5,
+        "text": "Check circulation: Feel for pulse below injury. Check if fingers/toes are warm and can move. Numbness or cold indicates emergency",
+        "image": "/images/trauma/dislocate_circulation.png"
+      },
+      {
+        "order": 6,
+        "text": "Apply cold pack: Wrap ice in cloth, apply around (not directly on) joint. Reduces pain and swelling. Apply for 20 minutes",
+        "image": "/images/trauma/dislocate_ice.png"
+      },
+      {
+        "order": 7,
+        "text": "Treat for shock: Keep person lying down and warm. Elevate legs if no spinal injury suspected",
+        "image": "/images/trauma/dislocate_shock.png"
+      },
+      {
+        "order": 8,
+        "text": "Do not allow eating or drinking: Surgery may be needed to reduce the dislocation",
+        "image": "/images/trauma/dislocate_nofood.png"
+      }
+    ]
+  },
+  {
+    "id": "head-injury",
+    "name": "Head Injury",
+    "category": "trauma",
+    "severity": "HIGH",
+    "description": "Trauma to the head requiring evaluation",
+    "image": "/images/trauma/head-injury.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 if person is unconscious or severely injured",
+        "image": "/images/trauma/head_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Keep person still - do not move neck",
+        "image": "/images/trauma/head_still.png"
+      },
+      {
+        "order": 3,
+        "text": "Apply gentle pressure to bleeding wounds with clean cloth",
+        "image": "/images/trauma/head_pressure.png"
+      },
+      {
+        "order": 4,
+        "text": "Monitor for vomiting, confusion, or unequal pupils",
+        "image": "/images/trauma/head_monitor.png"
+      },
+      {
+        "order": 5,
+        "text": "Do not give food, water, or medications",
+        "image": "/images/trauma/head_nofood.png"
+      },
+      {
+        "order": 6,
+        "text": "Keep person awake if possible and talking to you",
+        "image": "/images/trauma/head_awake.png"
+      }
+    ]
+  },
+  {
+    "id": "concussion",
+    "name": "Concussion",
+    "category": "trauma",
+    "severity": "MEDIUM",
+    "description": "Mild traumatic brain injury from impact",
+    "image": "/images/trauma/concussion.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Remove from activity immediately",
+        "image": "/images/trauma/concussion_stop.png"
+      },
+      {
+        "order": 2,
+        "text": "Monitor for danger signs: vomiting, confusion, unequal pupils",
+        "image": "/images/trauma/concussion_monitor.png"
+      },
+      {
+        "order": 3,
+        "text": "Have person rest in quiet, dim environment",
+        "image": "/images/trauma/concussion_rest.png"
+      },
+      {
+        "order": 4,
+        "text": "Apply ice to any bumps",
+        "image": "/images/trauma/concussion_ice.png"
+      },
+      {
+        "order": 5,
+        "text": "Wake person every 2-3 hours if sleeping to check responsiveness",
+        "image": "/images/trauma/concussion_wake.png"
+      },
+      {
+        "order": 6,
+        "text": "Seek medical attention within 24 hours",
+        "image": "/images/trauma/concussion_medical.png"
+      }
+    ]
+  },
+  {
+    "id": "spinal-injury",
+    "name": "Spinal Injury",
+    "category": "trauma",
+    "severity": "CRITICAL",
+    "description": "Suspected spinal cord injury - do not move",
+    "image": "/images/trauma/spinal-injury.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 immediately",
+        "image": "/images/trauma/spinal_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Do not move the person under any circumstances",
+        "image": "/images/trauma/spinal_nomove.png"
+      },
+      {
+        "order": 3,
+        "text": "Stabilize head and neck with hands",
+        "image": "/images/trauma/spinal_stabilize.png"
+      },
+      {
+        "order": 4,
+        "text": "Keep person calm and still",
+        "image": "/images/trauma/spinal_calm.png"
+      },
+      {
+        "order": 5,
+        "text": "Monitor breathing and be ready for CPR",
+        "image": "/images/trauma/spinal_breathing.png"
+      },
+      {
+        "order": 6,
+        "text": "Cover with blanket to maintain body temperature",
+        "image": "/images/trauma/spinal_warm.png"
+      }
+    ]
+  },
+  {
+    "id": "internal-bleeding",
+    "name": "Internal Bleeding",
+    "category": "trauma",
+    "severity": "CRITICAL",
+    "description": "Hidden hemorrhage requiring emergency care",
+    "image": "/images/trauma/internal-bleeding.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 immediately",
+        "image": "/images/trauma/internal_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Recognize signs: dizziness, pale skin, rapid pulse, tender abdomen",
+        "image": "/images/trauma/internal_signs.png"
+      },
+      {
+        "order": 3,
+        "text": "Keep person lying down with legs elevated",
+        "image": "/images/trauma/internal_position.png"
+      },
+      {
+        "order": 4,
+        "text": "Do not give food or water",
+        "image": "/images/trauma/internal_nofood.png"
+      },
+      {
+        "order": 5,
+        "text": "Keep person warm and calm",
+        "image": "/images/trauma/internal_warm.png"
+      },
+      {
+        "order": 6,
+        "text": "Monitor for shock and be ready for CPR",
+        "image": "/images/trauma/internal_monitor.png"
+      }
+    ]
+  },
+  {
+    "id": "embedded-object",
+    "name": "Embedded Object",
+    "category": "trauma",
+    "severity": "HIGH",
+    "description": "Object stuck in body - do not remove",
+    "image": "/images/trauma/embedded-object.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Call 911 immediately",
+        "image": "/images/trauma/embedded_call.png"
+      },
+      {
+        "order": 2,
+        "text": "Do not remove the object",
+        "image": "/images/trauma/embedded_noremove.png"
+      },
+      {
+        "order": 3,
+        "text": "Stabilize object with bulky dressings around it",
+        "image": "/images/trauma/embedded_stabilize.png"
+      },
+      {
+        "order": 4,
+        "text": "Control bleeding around the object",
+        "image": "/images/trauma/embedded_bleeding.png"
+      },
+      {
+        "order": 5,
+        "text": "Keep person still and calm",
+        "image": "/images/trauma/embedded_calm.png"
+      },
+      {
+        "order": 6,
+        "text": "Monitor for shock until help arrives",
+        "image": "/images/trauma/embedded_shock.png"
+      }
+    ]
+  }
+]

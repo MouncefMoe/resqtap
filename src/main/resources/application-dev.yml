@@ -1,0 +1,49 @@
+# Development Configuration - Uses H2 in-memory database
+
+server:
+  port: 8080
+
+spring:
+  # H2 Database (in-memory for development)
+  datasource:
+    url: jdbc:h2:mem:resqtap_dev;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  # H2 Console (access at http://localhost:8080/h2-console)
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  # JPA Configuration
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  # Security
+  security:
+    user:
+      name: admin
+      password: admin123
+
+# Logging
+logging:
+  level:
+    com.example.resqtap: DEBUG
+    org.springframework.web: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql: TRACE
+
+# Cache Statistics (for development monitoring)
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,caches

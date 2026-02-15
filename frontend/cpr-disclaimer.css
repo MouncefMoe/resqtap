@@ -1,0 +1,184 @@
+/* ===== CPR DISCLAIMER MODAL ===== */
+
+/* Full-screen overlay - blocks all interaction */
+.disclaimer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999;
+  padding: 20px;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.disclaimer-overlay.is-visible {
+  display: flex;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Modal panel */
+.disclaimer-panel {
+  background: white;
+  border-radius: 20px;
+  padding: 32px;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.4s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Warning icon/title */
+.disclaimer-panel h2 {
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.disclaimer-panel h2::before {
+  content: '⚠️';
+  font-size: 32px;
+  line-height: 1;
+}
+
+/* Disclaimer content text */
+.disclaimer-content {
+  margin: 0 0 28px 0;
+  line-height: 1.6;
+}
+
+.disclaimer-content p {
+  margin: 12px 0;
+  font-size: 15px;
+  color: #334155;
+}
+
+.disclaimer-content strong {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+/* Button styling */
+.disclaimer-btn {
+  width: 100%;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #667EEA 0%, #5568D3 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 12px;
+}
+
+.disclaimer-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+/* Secondary button option */
+.disclaimer-secondary-btn {
+  width: 100%;
+  padding: 12px 20px;
+  background: transparent;
+  color: #667EEA;
+  border: 2px solid #667EEA;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 8px;
+}
+
+.disclaimer-secondary-btn:active {
+  background: #f0f4ff;
+}
+
+/* Legal text at bottom */
+.disclaimer-legal {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #e2e8f0;
+  font-size: 12px;
+  color: #94a3b8;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .disclaimer-panel {
+    padding: 24px;
+    margin: 20px;
+  }
+
+  .disclaimer-panel h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .disclaimer-content p {
+    font-size: 14px;
+  }
+
+  .disclaimer-btn {
+    padding: 12px 16px;
+    font-size: 15px;
+  }
+}
+
+/* State when overlay is animating out */
+.disclaimer-overlay.is-closing {
+  animation: fadeOut 0.3s ease-out;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.disclaimer-overlay.is-closing .disclaimer-panel {
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+}

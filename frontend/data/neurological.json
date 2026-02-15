@@ -1,0 +1,182 @@
+[
+  {
+    "id": "seizure",
+    "name": "Seizure",
+    "category": "neurological",
+    "severity": "HIGH",
+    "description": "Uncontrolled electrical activity in brain",
+    "image": "/images/neurological/seizure.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Stay calm and note the time: Start timing the seizure immediately. Duration is critical information for EMS. Most seizures last 30 seconds to 2 minutes",
+        "image": "/images/neuro/seizure_time.png"
+      },
+      {
+        "order": 2,
+        "text": "Protect from injury: Clear away furniture, sharp objects, anything hard. If standing, guide person gently to floor. Place something soft under their head",
+        "image": "/images/neuro/seizure_clear.png"
+      },
+      {
+        "order": 3,
+        "text": "Do NOT restrain: Never hold the person down or try to stop the movements. This can cause injury. The seizure must run its course",
+        "image": "/images/neuro/seizure_restrain.png"
+      },
+      {
+        "order": 4,
+        "text": "Do NOT put anything in mouth: The person cannot swallow their tongue. Putting objects in mouth can break teeth, injure jaw, or cause choking",
+        "image": "/images/neuro/seizure_mouth.png"
+      },
+      {
+        "order": 5,
+        "text": "Turn on side (recovery position): Once convulsions stop, turn person on their side. This keeps airway clear and allows fluids to drain. Tilt head back slightly",
+        "image": "/images/neuro/seizure_side.png"
+      },
+      {
+        "order": 6,
+        "text": "Call 911 if: Seizure lasts more than 5 minutes, person doesn't regain consciousness, another seizure follows, person is injured, pregnant, or diabetic, or this is their first seizure",
+        "image": "/images/neuro/seizure_call.png"
+      },
+      {
+        "order": 7,
+        "text": "Stay until fully alert: Person may be confused, sleepy, or agitated after seizure (postictal state). Stay calm, speak softly, explain what happened. Do not give food/water until fully alert",
+        "image": "/images/neuro/seizure_after.png"
+      },
+      {
+        "order": 8,
+        "text": "Loosen tight clothing: Undo collars, ties, belts. Check breathing regularly. If breathing doesn't resume after seizure stops, begin CPR",
+        "image": "/images/neuro/seizure_loosen.png"
+      }
+    ]
+  },
+  {
+    "id": "febrile-seizure",
+    "name": "Febrile Seizure",
+    "category": "neurological",
+    "severity": "MEDIUM",
+    "description": "Seizure in children caused by fever",
+    "image": "/images/neurological/febrile-seizure.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Stay calm - most febrile seizures stop on their own",
+        "image": "/images/neuro/febrile_calm.png"
+      },
+      {
+        "order": 2,
+        "text": "Place child on side on safe surface",
+        "image": "/images/neuro/febrile_side.png"
+      },
+      {
+        "order": 3,
+        "text": "Do not restrain or put anything in mouth",
+        "image": "/images/neuro/febrile_dont.png"
+      },
+      {
+        "order": 4,
+        "text": "Time the seizure",
+        "image": "/images/neuro/febrile_time.png"
+      },
+      {
+        "order": 5,
+        "text": "Call 911 if seizure lasts more than 5 minutes",
+        "image": "/images/neuro/febrile_call.png"
+      },
+      {
+        "order": 6,
+        "text": "After seizure, cool child gradually and see doctor",
+        "image": "/images/neuro/febrile_cool.png"
+      }
+    ]
+  },
+  {
+    "id": "stroke",
+    "name": "Stroke",
+    "category": "neurological",
+    "severity": "CRITICAL",
+    "description": "Brain attack - use FAST to identify",
+    "image": "/images/neurological/stroke.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Use FAST assessment: F-Face drooping (ask to smile, is one side drooping?), A-Arm weakness (ask to raise both arms, does one drift down?), S-Speech difficulty (slurred, confused, unable to repeat simple phrase?), T-Time to call 911",
+        "image": "/images/neuro/stroke_fast.png"
+      },
+      {
+        "order": 2,
+        "text": "Call 911 immediately: State 'possible stroke.' Time is critical - there is a narrow window for clot-busting treatment. Every minute matters for brain survival",
+        "image": "/images/neuro/stroke_call.png"
+      },
+      {
+        "order": 3,
+        "text": "Note the exact time symptoms started: This is crucial information. Treatment options depend on how long since symptom onset. Ask bystanders if you didn't witness it",
+        "image": "/images/neuro/stroke_time.png"
+      },
+      {
+        "order": 4,
+        "text": "Keep person still and calm: Have them lie down with head slightly elevated (15-30 degrees). Turn on side if vomiting. Do not allow them to walk or move unnecessarily",
+        "image": "/images/neuro/stroke_position.png"
+      },
+      {
+        "order": 5,
+        "text": "Do NOT give anything by mouth: No food, water, or medications (including aspirin - unlike heart attack, stroke may be a bleeding not a clot). Person may have difficulty swallowing",
+        "image": "/images/neuro/stroke_nofood.png"
+      },
+      {
+        "order": 6,
+        "text": "Loosen restrictive clothing: Undo collar, tie, bra, belt. This helps with breathing and blood flow. Keep person comfortable but still",
+        "image": "/images/neuro/stroke_loosen.png"
+      },
+      {
+        "order": 7,
+        "text": "Monitor breathing closely: Stroke can affect breathing. If person becomes unresponsive and stops breathing normally, begin CPR immediately",
+        "image": "/images/neuro/stroke_monitor.png"
+      },
+      {
+        "order": 8,
+        "text": "Note all symptoms: Record what you observe - weakness on which side, speech problems, vision issues, confusion level. This helps medical team assess and treat",
+        "image": "/images/neuro/stroke_record.png"
+      }
+    ]
+  },
+  {
+    "id": "fainting",
+    "name": "Fainting",
+    "category": "neurological",
+    "severity": "MEDIUM",
+    "description": "Brief loss of consciousness",
+    "image": "/images/neurological/fainting.jpg",
+    "steps": [
+      {
+        "order": 1,
+        "text": "Help person lie down with legs elevated",
+        "image": "/images/neuro/faint_position.png"
+      },
+      {
+        "order": 2,
+        "text": "Loosen tight clothing",
+        "image": "/images/neuro/faint_loosen.png"
+      },
+      {
+        "order": 3,
+        "text": "Check for breathing and pulse",
+        "image": "/images/neuro/faint_check.png"
+      },
+      {
+        "order": 4,
+        "text": "If they don't regain consciousness in 1 minute, call 911",
+        "image": "/images/neuro/faint_call.png"
+      },
+      {
+        "order": 5,
+        "text": "When conscious, have them stay lying down for several minutes",
+        "image": "/images/neuro/faint_rest.png"
+      },
+      {
+        "order": 6,
+        "text": "Give water when fully alert",
+        "image": "/images/neuro/faint_water.png"
+      }
+    ]
+  }
+]
